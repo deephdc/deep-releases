@@ -1,2 +1,2 @@
 # deephdc.github.io
-DEEP-Hybrid DataCloud project documentation 
+DEEP-Hybrid DataCloud Releases Documentation 
