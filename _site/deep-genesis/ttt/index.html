@@ -77,9 +77,38 @@
 
 <h3>What's new</h3>
 
+<p>This new versions provide a number of new features and bug fixes.</p>
+
 <p><a name="lrfc">&nbsp;</a></p>
 
 <h3>List of RfCs</h3>
+
+<ul>
+<li>Added new types for Onedata and Dynafed storage resources</li>
+<li>Updated example templates for deploying Chronos dockerized jobs that use Onedata for managing input/output data</li>
+<li>Updated example template for deploying a Mesos cluster</li>
+<li>Added example template for deploying a Mesos cluster with GPU support and a tensorflow container on top of it that uses GPU(s)</li>
+<li>Added GPU support for compute nodes and dockerized jobs (chronos) and apps (marathon)</li>
+<li>Added preemtible_instance property to support "spot" instances</li>
+<li>Added example template for launching the generic_deepaas mesos job</li>
+<li>Added Onedata support in DODAS template</li>
+<li>Added new types for describing a Kubernetes cluster; new Ansible roles implemented.</li>
+<li>Added new type for describing a JupyterHub node; new Ansible role implemented.</li>
+<li>Fixing for Galaxy on cloud:
+
+<ul>
+<li>Update support to Galaxy release_18.05 in indigo-dc.galaxycloud</li>
+<li>Fix proftpd in indigo-dc.galaxycloud</li>
+<li>New ansible role for galaxy tools installation, named indigo-dc.galaxycloud-tools</li>
+<li>Update tosca.nodes.indigo.GalaxyShedTool with new ansible role</li>
+<li>Fix CERN-VM FS reference data mount on cluster worker nodes on galaxy artifacts</li>
+<li>Reworked ansible role (indigo-dc.galaxycloud-fastconfig) to reconfigure an image with Galaxy already installed</li>
+<li>Reworked storage encryption script on indigo-dc.galaxycloud-os</li>
+<li>Fix tasks order in Galaxy elastic cluster tosca template: now galaxy user is created before slurm configuration.</li>
+</ul>
+</li>
+</ul>
+
 
 <p><a name="kn">&nbsp;</a></p>
 

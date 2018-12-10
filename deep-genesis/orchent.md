@@ -23,10 +23,18 @@ Summary:
 
 <a name="wn">&nbsp;</a>
 ### What's new
-
+The new version provides a number of new features, improvements and bug fixes
 
 <a name="lrfc">&nbsp;</a>
 ### List of RfCs
+
+* Bug fuxes:
+	* Fixed communication with oidc-agent >= 2.0.0
+* New features:
+	* Added support for two new flags in depcreate/depupdate operations:
+		* maxProvidersRetry: Maximum number of cloud providers to be used in case of failure (Default: UNBOUNDED).
+		* keepLastAttempt: In case of failure, keep the resources allocated in the last try (Default: true).
+ * These flags are supported starting from Orchestrator version 2.1.0
 
 <a name="kn">&nbsp;</a>
 ### Known Issues

@@ -23,11 +23,20 @@ Summary:
 
 <a name="wn">&nbsp;</a>
 ### What's new
-
+This is the initial release of DEEPaaS API (deepaas) exposing basic model functionality.
 
 <a name="lrfc">&nbsp;</a>
 ### List of RfCs
 
+* Task implemented/partially implemented
+	* Expose model functionality to end users
+	* Expose functionality via API
+	* Provide access to application
+	* Provide resources to efficiently train a model
+	* Facilitate the deployment of a trained model for inference
+	* Provide a easy way to access a deployed application by end users
+	* Provide a way to submit input data to model
+	
 <a name="kn">&nbsp;</a>
 ### Known Issues
 

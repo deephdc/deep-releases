@@ -7,7 +7,7 @@ title: DEEP-HybridDataCloud Releases
 
 Welcome to DEEP-HybridDataCloud Releases pages!
 
-The** D**esigning and **E**nabling **E**-infrastructures for intensive **P**rocessing in a **Hybrid DataCloud** (DEEP-Hybrid-DataCloud) is project funded by the European Union’s Horizon 2020 research and innovation programme under grant agreement No 777435. 
+The ** D**esigning and **E**nabling **E**-infrastructures for intensive **P**rocessing in a **Hybrid DataCloud** (DEEP-HybridDataCloud) is project funded by the European Union’s Horizon 2020 research and innovation programme under grant agreement No 777435. 
  
 **Global objective**: Promote the use of intensive computing services by different research communities and areas, an the support by the corresponding e-Infrastructure providers and open source projects.
 

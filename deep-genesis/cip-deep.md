@@ -23,10 +23,15 @@ Summary:
 
 <a name="wn">&nbsp;</a>
 ### What's new
+This versions adds InfiniBand support for OpenStack in LDIF format:
+* cloud-info-provider shall provides now information, through GLUE2ResourceID, when a given OpenStack flavor provides InfiniBand.
+	* The convention is to use the extra_specs parameter from the flavor's metadata. This parameter is a list of key:value pairs, where the both key's and value's names are not fixed. The provider should allow to define the key's name and the value string to match via command-line options. The InfiniBand support will be published through the GLUE2ExecutionEnvironmentNetworkInfo attribute.
 
 
 <a name="lrfc">&nbsp;</a>
 ### List of RfCs
+
+* Add InfiniBand support for OpenStack in LDIF format
 
 <a name="kn">&nbsp;</a>
 ### Known Issues

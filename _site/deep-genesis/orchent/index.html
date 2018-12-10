@@ -77,9 +77,34 @@
 
 <h3>What's new</h3>
 
+<p>The new version provides a number of new features, improvements and bug fixes</p>
+
 <p><a name="lrfc">&nbsp;</a></p>
 
 <h3>List of RfCs</h3>
+
+<ul>
+<li>Bug fuxes:
+
+<ul>
+<li>Fixed communication with oidc-agent >= 2.0.0</li>
+</ul>
+</li>
+<li>New features:
+
+<ul>
+<li>Added support for two new flags in depcreate/depupdate operations:
+
+<ul>
+<li>maxProvidersRetry: Maximum number of cloud providers to be used in case of failure (Default: UNBOUNDED).</li>
+<li>keepLastAttempt: In case of failure, keep the resources allocated in the last try (Default: true).</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>These flags are supported starting from Orchestrator version 2.1.0</li>
+</ul>
+
 
 <p><a name="kn">&nbsp;</a></p>
 

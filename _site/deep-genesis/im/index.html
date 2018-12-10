@@ -47,9 +47,9 @@
 <div class="container">  
   <div class="row-fluid">
     <div class="span9">
-        <h1>CloudInfoProvider-DEEP v. 0.10.4</h1>
+        <h1>Infrastructure Manager v. 1.7.5</h1>
 
-<p><strong>Description of CIP-DEEP
+<p><strong>Description of A4C - Deep
 </strong></p>
 
 <p>Summary:</p>
@@ -77,16 +77,53 @@
 
 <h3>What's new</h3>
 
-<p>This versions adds InfiniBand support for OpenStack in LDIF format:
-* cloud-info-provider shall provides now information, through GLUE2ResourceID, when a given OpenStack flavor provides InfiniBand.
-    * The convention is to use the extra_specs parameter from the flavor's metadata. This parameter is a list of key:value pairs, where the both key's and value's names are not fixed. The provider should allow to define the key's name and the value string to match via command-line options. The InfiniBand support will be published through the GLUE2ExecutionEnvironmentNetworkInfo attribute.</p>
-
 <p><a name="lrfc">&nbsp;</a></p>
 
 <h3>List of RfCs</h3>
 
+<h3> Tasks
+</h3>
+
+
 <ul>
-<li>Add InfiniBand support for OpenStack in LDIF format</li>
+<li>[<a href='https://jira.deep-hybrid-datacloud.eu/browse/DPD-167'>DPD-167</a>] -         Enable hybrid deployment
+</li>
+<li>[<a href='https://jira.deep-hybrid-datacloud.eu/browse/DPD-172'>DPD-172</a>] -         Add option to disable XML-RPC API
+</li>
+<li>[<a href='https://jira.deep-hybrid-datacloud.eu/browse/DPD-173'>DPD-173</a>] -         Create a connector to Apache CloudStack
+</li>
+<li>[<a href='https://jira.deep-hybrid-datacloud.eu/browse/DPD-174'>DPD-174</a>] -         Add volume_id to TOSCA BlockStorage type
+</li>
+<li>[<a href='https://jira.deep-hybrid-datacloud.eu/browse/DPD-175'>DPD-175</a>] -         Add support to disk.*.image_url in OpenStack connector
+</li>
+<li>[<a href='https://jira.deep-hybrid-datacloud.eu/browse/DPD-240'>DPD-240</a>] -         Facilitate the deployment of a trained model for inference
+</li>
+<li>[<a href='https://jira.deep-hybrid-datacloud.eu/browse/DPD-263'>DPD-263</a>] -         Enable to specify spot to EC2 instances in TOSCA
+</li>
+<li>[<a href='https://jira.deep-hybrid-datacloud.eu/browse/DPD-264'>DPD-264</a>] -         Get EC2 instances info from ec2instances.info
+</li>
+</ul>
+
+
+
+
+<h3> Bugs
+</h3>
+
+
+<ul>
+<li>[<a href='https://jira.deep-hybrid-datacloud.eu/browse/DPD-168'>DPD-168</a>] -         Problem installing specific branch of Ansible galaxy roles
+</li>
+<li>[<a href='https://jira.deep-hybrid-datacloud.eu/browse/DPD-169'>DPD-169</a>] -         OCCI server 2.0.4 authentication error
+</li>
+<li>[<a href='https://jira.deep-hybrid-datacloud.eu/browse/DPD-170'>DPD-170</a>] -         OCCI infrastructure: Volume deleting returns forbidden and takes too long
+</li>
+<li>[<a href='https://jira.deep-hybrid-datacloud.eu/browse/DPD-171'>DPD-171</a>] -         Fix error reporting memory units in OCCI connector
+</li>
+<li>[<a href='https://jira.deep-hybrid-datacloud.eu/browse/DPD-265'>DPD-265</a>] -         Error geting the subnets of the default VPC on EC2 conn
+</li>
+<li>[<a href='https://jira.deep-hybrid-datacloud.eu/browse/DPD-271'>DPD-271</a>] -         Error detecting ansible process end
+</li>
 </ul>
 
 

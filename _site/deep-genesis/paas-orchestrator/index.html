@@ -62,6 +62,7 @@
 <li><a href="#lrfc">List of RfCs</a></li>
 <li><a href="#kn">Known Issues</a></li>
 <li><a href="#la">List of Artifacts</a></li>
+<li><a href="#deploy">Deployment Notes</a></li>
 </ul>
 </li>
 <li><a href="#doc">Documentation</a></li>
@@ -77,9 +78,42 @@
 
 <h3>What's new</h3>
 
+<p>This version provides a number of new features, improvements and bug fixes</p>
+
 <p><a name="lrfc">&nbsp;</a></p>
 
 <h3>List of RfCs</h3>
+
+<ul>
+<li>New features::
+
+<ul>
+<li>Get Onedata access token using the user IAM token (fixes #294 XSD-27)</li>
+<li>Describe Dynafed resources in TOSCA (fixes #295 XSD-30)</li>
+<li>Extend the scheduling strategy using Dynafed (fixes #296 XSD-32)</li>
+<li>Implement Cloud Providers Retry Logic (#288 DPD-121)</li>
+<li>Retrieve of information from CMDB (fixes #290 DPD-124)</li>
+<li>AuthN through OIDC (fixes #291 DPD-125)</li>
+<li>Add support for mesos tasks with GPUs (fixes #292 DPD-126)</li>
+<li>Support IM async infrastructure creation #289</li>
+<li>Allow to import custom CAs in the java truststore #238</li>
+</ul>
+</li>
+<li>improvements
+
+<ul>
+<li>Improve OneData Spaces definition through templates (fixes #293 XSD-28)</li>
+</ul>
+</li>
+<li>Bug fixed:
+
+<ul>
+<li>Return 409 status code for SQLTransientExceptions #285</li>
+<li> (MySql) Timestamp columns have implicit default value assigned #283</li>
+</ul>
+</li>
+</ul>
+
 
 <p><a name="kn">&nbsp;</a></p>
 
@@ -88,6 +122,19 @@
 <p><a name="la">&nbsp;</a></p>
 
 <h3>List of Artifacts</h3>
+
+<p><a name="deploy">&nbsp;</a></p>
+
+<h3>Deployment Notes</h3>
+
+<p>The PaaS Orchestrator v. 2.1.1-FINAL has the following services dependencies
+* CMDB release v0.4 (docker image indigodatacloud/cmdb:indigo_2)
+* SLAM release v2.0.0 (docker image indigodatacloud/slam:v2.0.0)
+* CPR release v0.6.0 (docker image indigodatacloud/cloudproviderranker:indigo_2)
+* Monitoring - Zabbix Wrapper 1.0.2 (docker image indigodatacloud/zabbix-wrapper:indigo_2)
+* IM release >= 1.7.4
+* (Optional) Onedata v18.0.2-rc[11,12]
+* tosca-types v3.0.0</p>
 
 <p><a name="doc">&nbsp;</a></p>
 
