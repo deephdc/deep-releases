@@ -1,0 +1,21 @@
+name: DEEP - HybridDataCloud Releases Documentation
+
+description: "DEEP - HybridDataCloud Releases & Updates documentation and announcemenets"
+
+url: "https://deephdc.github.io/"
+
+paginate: 10
+
+markdown: rdiscount
+permalink: pretty
+highlighter: true
+plugins:
+   - jekyll-paginate
+   - jekyll-manager  
+   - jekyll-admin
+
+collections:
+  deep_genesis:
+    output: true
+    relative_directory: deep-genesis/
+  

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>DEEP - HybridDataCloud Releases Documentation</title>
+		<description>DEEP - HybridDataCloud Releases & Updates documentation and announcemenets</description>
+		<link>http://localhost:4000</link>
+		<atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
+                <pubDate>Mon, 10 Dec 2018 01:37:49 +0100</pubDate>
+                <lastBuildDate>Mon, 10 Dec 2018 01:37:49 +0100</lastBuildDate>
+		
+			<item>
+				<title>Welcome to DEEP-HybridDataCloud Releases & Updates Announcements!</title>
+				<description>&lt;p&gt;Welcome to DEEP-HybridDataCloud Releases &amp;amp; Updates Announcements pages&lt;/p&gt;
+
+&lt;p&gt;The DEEP-HybridDataCloud project is happy to announce the public availability of its  first results: new and enhanced components and services and rich library of KnowHow documentation .&lt;/p&gt;
+</description>
+				<pubDate>Sat, 01 Dec 2018 10:46:11 +0100</pubDate>
+				<link>http://localhost:4000/deep/update/2018/12/01/wellcome-to-deep-hdc-release/</link>
+				<guid isPermaLink="true">http://localhost:4000/deep/update/2018/12/01/wellcome-to-deep-hdc-release/</guid>
+			</item>
+		
+	</channel>
+</rss>
