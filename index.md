@@ -13,7 +13,7 @@ The ** D**esigning and **E**nabling **E**-infrastructures for intensive **P**roc
 
 **Specific objectives**:
 
-* **Focus **on **intensive computing techniques** for the analysis of **very large datasets** considering demanding use cases
+* **Focus ** on **intensive computing techniques** for the analysis of **very large datasets** considering demanding use cases
 	* Pilot applications from different research communities
 	* Improved list of requirements for e-Infrastructures → future generation
 * **Evolve** up to production level **intensive computing services **exploiting **specialized hardware**
