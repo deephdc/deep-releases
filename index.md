@@ -85,4 +85,4 @@ You'll find here usefull information regarding the DEEP-HybridDataCloud services
 <a name="releaserepos">&nbsp;</a>
 ## Release Repositories
 
-<h3><font style="color="#FC0813"">Coming soon!</font></h3>
+<h3>Coming soon!</h3>
