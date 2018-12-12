@@ -1,0 +1,33 @@
+v1.7.5
+------
+
+What’s new
+~~~~~~~~~~
+
+List of RfCs
+~~~~~~~~~~~~
+Tasks
+
+- [DPD-167] - Enable hybrid deployment
+- [DPD-172] - Add option to disable XML-RPC API
+- [DPD-173] - Create a connector to Apache CloudStack
+- [DPD-174] - Add volume_id to TOSCA BlockStorage type
+- [DPD-175] - Add support to disk.*.image_url in OpenStack connector
+- [DPD-240] - Facilitate the deployment of a trained model for inference
+- [DPD-263] - Enable to specify spot to EC2 instances in TOSCA
+- [DPD-264] - Get EC2 instances info from ec2instances.info
+
+Bugs
+
+- [DPD-168] - Problem installing specific branch of Ansible galaxy roles
+- [DPD-169] - OCCI server 2.0.4 authentication error
+- [DPD-170] - OCCI infrastructure: Volume deleting returns forbidden and takes too long
+- [DPD-171] - Fix error reporting memory units in OCCI connector
+- [DPD-265] - Error geting the subnets of the default VPC on EC2 conn
+- [DPD-271] - Error detecting ansible process end
+
+Known Issues
+~~~~~~~~~~~~
+
+List of Artifacts
+~~~~~~~~~~~~~~~~~

@@ -1,0 +1,29 @@
+v1.1-r0
+-------
+
+What’s new
+~~~~~~~~~~
+
+This is the first release of the Alien4Cloud - DEEP plugin providing: \*
+Support for visual composition of TOSCA templates \* PaaS orchestrator
+support
+
+List of RfCs
+~~~~~~~~~~~~
+
+Please see the list of solved issues on
+`Github <https://github.com/indigo-dc/alien4cloud-deep/issues?q=is%3Aissue+is%3Aclosed>`__
+
+Known Issues
+~~~~~~~~~~~~
+
+Please see the list of solved issues on
+`Github <https://github.com/indigo-dc/alien4cloud-deep/issues?q=is%3Aopen+is%3Aissue>`__
+
+List of Artifacts
+~~~~~~~~~~~~~~~~~
+
+Docker Container:
+
+-  `indigodatacloud/alien4cloud-deep <https://hub.docker.com/r/indigodatacloud/alien4cloud-deep/tags/>`__:DEEP-1 (signed)
+-  `indigodatacloud/alien4cloud-deep <https://hub.docker.com/r/indigodatacloud/alien4cloud-deep/tags/>`__:1.1-r0
