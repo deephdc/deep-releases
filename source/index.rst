@@ -17,7 +17,7 @@ DEEP-Hybrid-DataCloud releases
 Release repositories
 --------------------
 
-TODO: To be completed
+.. todo:: To be completed
 
 Release schedule
 ----------------
