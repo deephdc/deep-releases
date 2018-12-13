@@ -53,7 +53,7 @@ Supported artifacts & packaging formats
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 -  Packages:
-  Binaries: executable packages
+    - Binaries: executable packages
     - Sources: when available, package files that contain all of the necessary files to compile/build the respective piece of software
-   - Tarballs: clients are distributed as tarballs for all the platforms    
+    - Tarballs: clients are distributed as tarballs for all the platforms    
 - Containers: Docker images are available for almost all project software
