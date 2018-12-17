@@ -1,5 +1,5 @@
-Orchent plugin
-==============
+Orchent
+=======
 
 .. contents:: Table of Contents
 
