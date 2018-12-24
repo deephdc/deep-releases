@@ -1,5 +1,5 @@
-PaaS Orchestrator plugin
-========================
+PaaS Orchestrator
+=================
 
 .. contents:: Table of Contents
 

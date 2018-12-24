@@ -1,5 +1,5 @@
-DEEPaaS API plugin
-==================
+DEEPaaS API
+===========
 
 .. contents:: Table of Contents
 

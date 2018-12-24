@@ -1,5 +1,5 @@
-TOSCA types & templates plugin
-==============================
+TOSCA types & templates
+=======================
 
 .. contents:: Table of Contents
 
