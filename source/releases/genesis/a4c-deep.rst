@@ -3,23 +3,25 @@ Alien4Cloud - DEEP plugin
 
 .. contents:: Table of Contents
 
-The **Alien4Cloud - DEEP plugin** is the first step towards the adoption of a visual composition approach of TOSCA templates (based on 
+The **Alien4Cloud - DEEP plugin** is the first step towards the adoption
+ of a visual composition approach of TOSCA templates (based on
 Alien4Cloud), in order to facilitate the widespread adoption of the
 standard, and its integration with the INDIGO-DataCloud Orchestrator,
-which is already part of the EOSC-HUB service catalogue. 
+which is already part of the EOSC-HUB service catalogue.
 
-- With this approach, the user can visually compose complex applications that 
-  involve, for example, the dynamic deployment of a container orchestration platform on an IaaS Cloud site that executes a 
+- With this approach, the user can visually compose complex applications that
+  involve, for example, the dynamic deployment of a container orchestration
+  platform on an IaaS Cloud site that executes a
   highly-available Docker-based application to facilitate appication
-  delivery. 
+  delivery.
 
-- The users can also deploy an Apache Mesos cluster with GPU 
+- The users can also deploy an Apache Mesos cluster with GPU
   support that contains a deep learning application for the recognition of
   certain plant species, offered as a service to a community of users.
   This introduces unprecedented flexibility, from visual composition, to
   the automated application delivery, using a graphical interface that is
   already integrated with an Orchestrator layer that performs resource
-  provision from multiple Clouds and application configuration. 
+  provision from multiple Clouds and application configuration.
 
 - The integration of easy-to-use graphical interfaces builds a bridge between
   the users and the orchestration services.It also represents a step
@@ -40,12 +42,15 @@ Release Notes
 Documentation
 -------------
 
-Detaield documentation is available at:
-https://github.com/indigo-dc/alien4cloud-deep/blob/master/README.md
+Detailed documentation is available at:
+
+- https://github.com/indigo-dc/alien4cloud-deep/blob/master/README.md
 
 Support
 -------
 
-GitHub issues: https://github.com/indigo-dc/alien4cloud-deep/issues DEEP
-project’s internal support ticketing system:
-http://jira.deep-hybrid-datacloud.eu/
+Through:
+
+- GitHub issues: https://github.com/indigo-dc/alien4cloud-deep/issues
+
+- DEEP project’s internal support ticketing system: http://jira.deep-hybrid-datacloud.eu/
