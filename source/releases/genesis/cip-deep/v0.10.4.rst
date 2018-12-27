@@ -37,4 +37,4 @@ CentOS-7 RPMS
 
 Ubuntu 16.04 DEBS
 
-* `python-cloud-info-provider-deep-openstack_0.10.4-1_all.deb <http://repo.indigo-datacloud.eu/repository/deep-hdc/production/1/ubuntu/dists/bionic/main/binary-amd64/python-cloud-info-provider-deep-openstack_0.10.4-1_all.deb>`_
+* `python-cloud-info-provider-deep-openstack_0.10.4-1_all.deb <http://repo.indigo-datacloud.eu/repository/deep-hdc/production/1/ubuntu/dists/xenial/main/binary-amd64/python-cloud-info-provider-deep-openstack_0.10.4-1_all.deb>`_
