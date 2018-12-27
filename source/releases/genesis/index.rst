@@ -29,6 +29,23 @@ Highlights
 
 Key technical highlights:
 
+-  Alien4Cloud-DEEP plugin
+
+   -  Suppor for visual composition of TOSCA templates PaaS orchestrator
+      support
+
+-  cloud-info-provider
+
+   -  Support for GPU and Infibinand resources
+
+-  DEEPaaS API
+
+   -  Support for training a machine learning application Support for
+      performing inferences/analisys/predictions Support only for
+      synchronous requests
+   -  OpenID Connect support
+   -  Support for standalone service & OpenWhisk action
+
 -  PaaS Orchestrator
 
    -  Hybrid deployments on multiple sites
@@ -40,27 +57,10 @@ Key technical highlights:
    -  Improved support for hybrid deployments Support for additional
       TOSCA types
 
--  DEEPaaS API
-
-   -  Support for training a machine learning application Support for
-      performing inferences/analisys/predictions Support only for
-      synchronous requests
-   -  OpenID Connect support
-   -  Support for standalone service & OpenWhisk action
-
--  Alien4Cloud-DEEP plugin
-
-   -  Suppor for visual composition of TOSCA templates PaaS orchestrator
-      support
-
 -  Virtual Router
 
    -  Improvements to reach production level Virtualized routing over
       distributed infrastructures
-
--  cloud-info-provider
-
-   -  Support for GPU and Infibinand resources
 
 -  uDocker
 
