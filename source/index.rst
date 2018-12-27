@@ -24,7 +24,6 @@ Release schedule
 
 * Time-based releases
    - **projects’ Major releases** - the DEEP-HybridDataCloud project foresees two major releases, distributions, during its lifetime, at around 10 months since the start of the project.
-
 * As-soon-as-available
    - **components’ Minor/Revision releases** - in a project Major release, Development teams (aka Product Teams) can release updated versions of their components as soon as the DEEP-HDC software quality criteria are met. Thought the project Continuous Integration and Delivery System tests are continuously run giving feedback on the status of the components.
 

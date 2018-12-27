@@ -3,8 +3,8 @@ Alien4Cloud - DEEP plugin
 
 .. contents:: Table of Contents
 
-The **Alien4Cloud - DEEP plugin** is the first step towards the adoption
- of a visual composition approach of TOSCA templates (based on
+The **Alien4Cloud - DEEP plugin** is the first step towards the adoption of a 
+visual composition approach of TOSCA templates (based on
 Alien4Cloud), in order to facilitate the widespread adoption of the
 standard, and its integration with the INDIGO-DataCloud Orchestrator,
 which is already part of the EOSC-HUB service catalogue.

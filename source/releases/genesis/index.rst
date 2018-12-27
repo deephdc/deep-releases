@@ -48,7 +48,7 @@ Key technical highlights:
    -  OpenID Connect support
    -  Support for standalone service & OpenWhisk action
 
--  Alien4Cloud
+-  Alien4Cloud-DEEP plugin
 
    -  Suppor for visual composition of TOSCA templates PaaS orchestrator
       support
