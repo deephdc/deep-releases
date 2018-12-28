@@ -5,8 +5,6 @@ The `DEEP - HybridDataCloud <https://deep-hybrid-datacloud.eu/>`__
 project is pleased to announce the general availability of its **first
 public software release**, codenamed **Genesis**
 
-This release …
-
 Included components
 -------------------
 
