@@ -3,6 +3,7 @@ v2.1.1-FINAL
 
 What’s new
 ~~~~~~~~~~
+
 This version provides a number of new features,
 improvements and bug fixes, like:
 

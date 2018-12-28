@@ -50,7 +50,7 @@ Key technical highlights:
 
    -  Improved support for hybrid deployments Support for additional
       TOSCA types
-      
+
 -  PaaS Orchestrator
 
    -  Hybrid deployments on multiple sites

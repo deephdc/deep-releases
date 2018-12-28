@@ -9,8 +9,9 @@ and the usability of IaaS clouds by automating the VMI (Virtual Machine Image)
 selection, deployment, configuration, software installation, monitoring and
 update of the virtual infrastructure. It supports APIs from a large number
 of virtual platforms, making user applications cloud-agnostic. In addition
-it integrates a contextualization system to enable the installation and configuration
-of all the user required applications providing the user with a fully functional infrastructure.
+it integrates a contextualization system to enable the installation and
+configuration of all the user required applications providing the user
+with a fully functional infrastructure.
 
 This version evolved in the projects `INDIGO-Datacloud <https://www.indigo-datacloud.eu/>`_ and
 `DEEP – Hybrid DataCloud <https://deep-hybrid-datacloud.eu/>`_. It is used by the **INDIGO Orchestrator**
