@@ -3,7 +3,7 @@ INDIGO Virtual Router Configurator
 
 .. contents:: Table of Contents
 
-The **INDIGO-DC Virtual Router **  does not carry
+The **INDIGO-DC Virtual Router**  does not carry
 its own code. It consists of open components and all automation
 is contained in Ansible roles.
 

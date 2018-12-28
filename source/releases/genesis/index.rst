@@ -106,15 +106,18 @@ OperatingSystems (OS) repositories and DockerHub registry of the `indigodataclou
 
 The packages repositories have the following structure:
 
-* DEEP-HDC production (stable):
+* DEEP-HDC production (stable): 
 
   * `deep-hdc/production/{1,2}/centos7/x86_64/{base|updates} <http://repo.indigo-datacloud.eu/repository/deep-hdc/production/1/centos7/x86_64/base/repoview/>`_
+  * `deep-hdc/production/{1,2}/ubuntu/dists/xenial/main/{binary-amd64,source} <http://repo.indigo-datacloud.eu/repository/deep-hdc/production/1/ubuntu/dists/trusty/main/>`_
 
     * containing signed, well tested software components
 
-  * Third-party: `deep-hdc/production/{1,2}/centos7/x86_64/third-party <http://repo.indigo-datacloud.eu/repository/deep-hdc/production/1/centos7/x86_64/third-party/>`_
+  * third-party:
+    * `deep-hdc/production/{1,2}/centos7/x86_64/third-party <http://repo.indigo-datacloud.eu/repository/deep-hdc/production/1/centos7/x86_64/third-party/>`_
+    * `deep-hdc/production/{1,2}/ubuntu/dists/xenial/third-party{binary-amd64,source} <http://repo.indigo-datacloud.eu/repository/deep-hdc/production/1/ubuntu/dists/trusty/third-party>`_
 
-    * containing packages that are not part of DEEP, or not part of the base OS or EPEL, but used as dependencies by other DEEP components
+      * containing packages that are not part of DEEP, or not part of the base OS or EPEL, but used as dependencies by other DEEP components
 
 * DEEP-HDC testing: `deep/testing/{1,2}/{centos7,ubuntu}/ <http://repo.indigo-datacloud.eu/repository/deep-hdc/testing/>`_
 
@@ -123,7 +126,7 @@ The packages repositories have the following structure:
 * DEEP-HDC preview: `deep/preview/{1,2}/{centos7,ubuntu}/ <http://repo.indigo-datacloud.eu/repository/deep-hdc/preview/>`_
 
   * containing signed packages that will become part of the next stable update,
-      available for technical-previews
+  available for technical-previews
 
 All packages are signed with the INDIGO - DataCloud gpg key. The public
 key can be downloaded from
@@ -131,9 +134,28 @@ key can be downloaded from
 and the fingerprint from
 `here <http://repo.indigo-datacloud.eu/repository/INDIGODC_key_fingerprint.asc>`__.
 
+Please import the key BEFORE starting!
+
+* for CentOS7 save the key under /etc/pki/rpm-gpg/
+.. code-block:: bash
+
+    # rpm --import http://repo.indigo-datacloud.eu/repository/RPM-GPG-KEY-indigodc
+
+* for Ubuntu:
+.. code-block:: bash
+
+    # wget -q -O - http://repo.indigo-datacloud.eu/repository/RPM-GPG-KEY-indigodc | sudo apt-key add -
+
+Configuring the use of DEEP-HDC repositories
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+
 It is strongly recommended the use of the lastest version of the
 **deep-release** packages containing the public key and the YUM and APT
 repository files.
+
+Enable the DEEP-HDC Containers repositories
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 On the `DockerHub Registry <https://hub.docker.com/>`__, DEEP -
 HybridDataCloud uses the INDIGO - DataCloud and DEEP-HDC Organizations:
@@ -141,7 +163,7 @@ HybridDataCloud uses the INDIGO - DataCloud and DEEP-HDC Organizations:
 * `indigodatacloud <https://hub.docker.com/u/indigodatacloud/dashboard/>`__, for Core Services
 * `deephdc <https://hub.docker.com/u/deephdc/dashboard/>`__, for DEEP-OC modules
 
-Containers present in those repositories and released in DEEP-1 are
+Containers present in those repositories and released in DEEP-1 major release are
 tagged with “DEEP-1” tag and signed, leveraging the Docker’s trust
 features so that users can pull trusted images.
 
