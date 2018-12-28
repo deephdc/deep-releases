@@ -1,4 +1,4 @@
-v0.10.4
+v 0.10.4
 -------
 
 What’s new
@@ -32,8 +32,8 @@ List of Artifacts
 
 CentOS-7 RPMS
 
-* `cloud-info-provider-deep-0.10.4-1.el7.noarch.rpm <http://repo.indigo-datacloud.eu/repository/deep-hdc/production/1/centos7/x86_64/base/cloud-info-provider-deep-0.10.4-1.el7.noarch.rpm>`_
-* `cloud-info-provider-deep-openstack-0.10.4-1.el7.noarch.rpm <http://repo.indigo-datacloud.eu/repository/deep-hdc/production/1/centos7/x86_64/base/cloud-info-provider-deep-openstack-0.10.4-1.el7.noarch.rpm>`_
+* `cloud-info-provider-deep-0.10.4-1.el7.noarch.rpm <http://repo.indigo-datacloud.eu/repository/deep-hdc/production/1/centos7/x86_64/base/repoview/cloud-info-provider-deep.html>`_
+* `cloud-info-provider-deep-openstack-0.10.4-1.el7.noarch.rpm <http://repo.indigo-datacloud.eu/repository/deep-hdc/production/1/centos7/x86_64/base/repoview/cloud-info-provider-deep-openstack.html>`_
 
 Ubuntu 16.04 DEBS
 

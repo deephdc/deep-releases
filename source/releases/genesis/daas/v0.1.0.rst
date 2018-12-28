@@ -1,4 +1,4 @@
-v0.1.0
+v 0.1.0
 ------
 
 What’s new
@@ -23,5 +23,12 @@ List of RfCs
 Known Issues
 ~~~~~~~~~~~~
 
+* None
+
 List of Artifacts
 ~~~~~~~~~~~~~~~~~
+
+Docker Container:
+
+-  `indigodatacloud/deepaas <https://hub.docker.com/r/indigodatacloud/deepaas/tags/>`__:DEEP-1 (signed)
+-  `indigodatacloud/deepaas <https://hub.docker.com/r/indigodatacloud/deepaas/tags/>`__:0.1.0
