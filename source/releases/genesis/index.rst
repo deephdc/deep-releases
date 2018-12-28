@@ -21,6 +21,7 @@ Included components
    paas-orchestrator
    ttt
    udocker
+   indigovr
 
 
 Highlights
@@ -57,11 +58,6 @@ Key technical highlights:
    -  Support to specifying specialized computing hardware Improved
       support for deployment failures
 
--  Virtual Router
-
-   -  Improvements to reach production level Virtualized routing over
-      distributed infrastructures
-
 -  uDocker
 
    -  Improved support for GPUs and Infiniband
@@ -89,20 +85,16 @@ Key technical highlights:
 Release Notes
 -------------
 
-The DEEP-1/Genesis release consists in X Products and guides:
+The DEEP-1/Genesis release consists in 9 Products and a number of technical guides:
 
--  X OS packages
+-  13 OS packages, for CentOS 7 and Ubuntu 16.04
 
-   -  Y RPMS & SRPMS
-   -  Z binary & source DEBS
-   -  W binary & source tarballs
+   -  6 RPMS & SRPMS
+   -  4 binary & source DEBS
+   -  3 tarballs
 
--  T Docker containers
+-  5 Docker containers
 
-The release is fully supported \* on the following Operating Systems
-platforms: \* CentOS 7 \* Ubuntu 18.04 \* Optionally PTs support also
-other OS platforms. You can find more information in the individual
-products documentation.
 
 You can find in the later sections the full list of products, with
 detailed release notes and instructions for their
@@ -112,30 +104,28 @@ Installation Notes
 ------------------
 
 All DEEP - HybridDataCloud products are distributed from standard
-OperatingSystems (OS) repositories and DockerHub registry.
+OperatingSystems (OS) repositories and DockerHub registry of the `indigodatacloud <https://cloud.docker.com/u/indigodatacloud/repository/list>`_ organization.
 
 The packages repositories have the following structure:
 
--  DEEP-HDC production (stable): deep/production/{1,2}///{base|updates}
+* DEEP-HDC production (stable):
 
-   -  stable and signed, well tested software components
-   -  Third-party: deep/production/{1,2}///third-party
+  * `deep-hdc/production/{1,2}/centos7/x86_64/{base|updates} <http://repo.indigo-datacloud.eu/repository/deep-hdc/production/1/centos7/x86_64/base/repoview/>`_
 
-      -  packages that are not part of INDIGO, or not part of the base
-         OS or EPEL, but used as dependencies by other INDIGO components
+    * containing signed, well tested software components
 
--  DEEP-HDC testing: deep/testing/{1,2}//
+  * Third-party: `deep-hdc/production/{1,2}/centos7/x86_64/third-party <http://repo.indigo-datacloud.eu/repository/deep-hdc/production/1/centos7/x86_64/third-party/>`_
 
-   -  packages that will become part of the next stable distribution; in
-      the certification and validation phase.
+    * containing packages that are not part of DEEP, or not part of the base OS or EPEL, but used as dependencies by other DEEP components
 
--  DEEP-HDC preview: deep/preview/{1,2}//
+* DEEP-HDC testing: `deep/testing/{1,2}/{centos7,ubuntu}/ <http://repo.indigo-datacloud.eu/repository/deep-hdc/testing/>`_
 
-   -  signed packages that will become part of the next stable update,
+  * containing packages that will become part of the next stable distribution; in the certification and validation phase.
+
+* DEEP-HDC preview: `deep/preview/{1,2}/{centos7,ubuntu}/ <http://repo.indigo-datacloud.eu/repository/deep-hdc/preview/>`_
+
+  * containing signed packages that will become part of the next stable update,
       available for technical-previews
-
-where \* is currently: x86_64, SRPMS (for CentOS7), and binary-amd64,
-source (for Ubuntu) \* is currently: centos7, ubuntu/dists/bionic/main
 
 All packages are signed with the INDIGO - DataCloud gpg key. The public
 key can be downloaded from
@@ -144,16 +134,14 @@ and the fingerprint from
 `here <http://repo.indigo-datacloud.eu/repository/INDIGODC_key_fingerprint.asc>`__.
 
 It is strongly recommended the use of the lastest version of the
-deep-release packages containing the public key and the YUM and APT
+**deep-release** packages containing the public key and the YUM and APT
 repository files.
 
 On the `DockerHub Registry <https://hub.docker.com/>`__, DEEP -
 HybridDataCloud uses the INDIGO - DataCloud and DEEP-HDC Organizations:
 
--  `indigodatacloud <https://hub.docker.com/u/indigodatacloud/dashboard/>`__,
-   for Core Services
--  `deephdc <https://hub.docker.com/u/deephdc/dashboard/>`__, for
-   DEEP-OC modules
+* `indigodatacloud <https://hub.docker.com/u/indigodatacloud/dashboard/>`__, for Core Services
+* `deephdc <https://hub.docker.com/u/deephdc/dashboard/>`__, for DEEP-OC modules
 
 Containers present in those repositories and released in DEEP-1 are
 tagged with “DEEP-1” tag and signed, leveraging the Docker’s trust
@@ -173,7 +161,7 @@ repositories <http://repo.indigo-datacloud.eu/repository/deep-hdc/>`__.
 Documentation
 -------------
 
-Please find DEEP-1 documentation `here <https://deephdc.github.io/>`__.
+Please find DEEP-1 documentation `here <https://releases.deep-hybrid-datacloud.eu/en/latest/>`__.
 
 Support
 -------
