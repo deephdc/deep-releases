@@ -44,7 +44,7 @@ Documentation
 
 Detailed documentation is available at:
 
-- https://github.com/indigo-dc/alien4cloud-deep/blob/master/README.md
+* `GitHub README <https://github.com/indigo-dc/alien4cloud-deep/blob/master/README.md>`_
 
 Support
 -------
