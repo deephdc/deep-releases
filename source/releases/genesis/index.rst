@@ -106,7 +106,7 @@ OperatingSystems (OS) repositories and DockerHub registry of the `indigodataclou
 
 The packages repositories have the following structure:
 
-* DEEP-HDC production (stable): 
+* DEEP-HDC **production** (stable): 
 
   * `deep-hdc/production/{1,2}/centos7/x86_64/{base|updates} <http://repo.indigo-datacloud.eu/repository/deep-hdc/production/1/centos7/x86_64/base/repoview/>`_
   * `deep-hdc/production/{1,2}/ubuntu/dists/xenial/main/{binary-amd64,source} <http://repo.indigo-datacloud.eu/repository/deep-hdc/production/1/ubuntu/dists/trusty/main/>`_
@@ -114,21 +114,22 @@ The packages repositories have the following structure:
     * containing signed, well tested software components
 
   * third-party:
+
     * `deep-hdc/production/{1,2}/centos7/x86_64/third-party <http://repo.indigo-datacloud.eu/repository/deep-hdc/production/1/centos7/x86_64/third-party/>`_
     * `deep-hdc/production/{1,2}/ubuntu/dists/xenial/third-party{binary-amd64,source} <http://repo.indigo-datacloud.eu/repository/deep-hdc/production/1/ubuntu/dists/trusty/third-party>`_
 
       * containing packages that are not part of DEEP, or not part of the base OS or EPEL, but used as dependencies by other DEEP components
 
-* DEEP-HDC testing: `deep/testing/{1,2}/{centos7,ubuntu}/ <http://repo.indigo-datacloud.eu/repository/deep-hdc/testing/>`_
+* DEEP-HDC **testing**: `deep/testing/{1,2}/{centos7,ubuntu}/ <http://repo.indigo-datacloud.eu/repository/deep-hdc/testing/>`_
 
   * containing packages that will become part of the next stable distribution; in the certification and validation phase.
 
-* DEEP-HDC preview: `deep/preview/{1,2}/{centos7,ubuntu}/ <http://repo.indigo-datacloud.eu/repository/deep-hdc/preview/>`_
+* DEEP-HDC **preview**: `deep/preview/{1,2}/{centos7,ubuntu}/ <http://repo.indigo-datacloud.eu/repository/deep-hdc/preview/>`_
 
   * containing signed packages that will become part of the next stable update,
   available for technical-previews
 
-All packages are signed with the INDIGO - DataCloud gpg key. The public
+All packages in production and preview repositories are signed with the INDIGO - DataCloud gpg key. The public
 key can be downloaded from
 `here <http://repo.indigo-datacloud.eu/repository/RPM-GPG-KEY-indigodc>`__,
 and the fingerprint from
@@ -149,6 +150,26 @@ Please import the key BEFORE starting!
 Configuring the use of DEEP-HDC repositories
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+YUM & APT configuration files are available at:
+
+* CentOS7 - http://repo.indigo-datacloud.eu/deep-hdc/repos/deep-1.repo
+* Ubuntu 16.04 - http://repo.indigo-datacloud.eu/deep-hdc/repos/deep-1-ubuntu16_04.list
+
+or use the deep-release package to install DEEP-HDC repositories:
+
+* CentOS7:
+.. code-block:: bash
+
+    wget http://repo.indigo-datacloud.eu/repository/deep-hdc/production/1/centos7/x86_64/base/deep-release-1.0.0-1.el7.centos.noarch.rpm
+    yum localinstall -y deep-release-1.0.0-1.el7.centos.noarch.rpm
+
+* Ubuntu 16.04:
+.. code-block:: bash
+
+    wget http://repo.indigo-datacloud.eu/repository/deep-hdc/1/ubuntu/dists/xenial/main/binary-amd64/deep-release_1.0.0-1_amd64.deb
+    dpkg -i deep-release_1.0.0-1_amd64.deb
+
+These packages will install required dependencies, the INDIGO - DataCloud public key and ensures the precedence of DEEP-HybridDataCloud repositories over EPEL and Ubuntu.
 
 It is strongly recommended the use of the lastest version of the
 **deep-release** packages containing the public key and the YUM and APT
@@ -164,19 +185,39 @@ HybridDataCloud uses the INDIGO - DataCloud and DEEP-HDC Organizations:
 * `deephdc <https://hub.docker.com/u/deephdc/dashboard/>`__, for DEEP-OC modules
 
 Containers present in those repositories and released in DEEP-1 major release are
-tagged with “DEEP-1” tag and signed, leveraging the Docker’s trust
-features so that users can pull trusted images.
+tagged with “DEEP-1” tag and signed, leveraging the `Docker’s trust
+features <https://docs.docker.com/engine/security/>`_ so that users can pull trusted images.
 
-To understand how to install and configure DEEP-1/Genesis services and
-components either refer to the `Generic Installation and Configuration
-Guide <https://add_generic>`__ chapter or to each individual product
-documentation.
+Currently, content trust is disabled by default. You must enable it by setting
+the **DOCKER_CONTENT_TRUST** environment variable, like bellow:
+.. code-block:: bash
 
-Software
---------
+  export DOCKER_CONTENT_TRUST=1
 
-DEEP-1 software can be downloaded from `DEEP - HybridDataCloud
-repositories <http://repo.indigo-datacloud.eu/repository/deep-hdc/>`__.
+For more details regarding the "Content Trust in Docker" please read `Docker's Documentation <https://docs.docker.com/engine/security/trust/content_trust/>`_
+
+Content trust is associated with the TAG portion of an image. For DEEP-1/Genesis release the signed tag is DEEP-1. See example bellow if you want to ensure the correct use of DEEP-HDC images:
+
+.. code-block:: bash
+
+  $ export DOCKER_CONTENT_TRUST=1
+ 
+  $ docker pull indigodatacloud/orchestrator:2.1.1-FINAL
+  No trust data for 2.1.1-FINAL
+
+  $ docker pull indigodatacloud/orchestrator:DEEP-1
+  Pull (1 of 1): indigodatacloud/orchestrator:DEEP-1@sha256:441c8b037684422ccdf2fdec322c9c09904ed3ce74d9fcc7d2862a9f53ad36be
+  sha256:441c8b037684422ccdf2fdec322c9c09904ed3ce74d9fcc7d2862a9f53ad36be: Pulling from indigodatacloud/orchestrator
+  93857f76ae30: Pull complete
+  [...]
+  e8c92b40b492: Pull complete
+  Digest: sha256:441c8b037684422ccdf2fdec322c9c09904ed3ce74d9fcc7d2862a9f53ad36be
+  Status: Downloaded newer image for indigodatacloud/orchestrator@sha256:441c8b037684422ccdf2fdec322c9c09904ed3ce74d9fcc7d2862a9f53ad36be
+  Tagging indigodatacloud/orchestrator@sha256:441c8b037684422ccdf2fdec322c9c09904ed3ce74d9fcc7d2862a9f53ad36be as indigodatacloud/orchestrator:indigo_2
+  $ docker images
+  REPOSITORY                     TAG                 IMAGE ID            CREATED             SIZE
+  indigodatacloud/orchestrator   DEEP-1            bdbe758d9f32        37 hours ago        843MB
+
 
 Documentation
 -------------
