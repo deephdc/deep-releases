@@ -4,16 +4,17 @@ v2.1.1-FINAL
 What’s new
 ~~~~~~~~~~
 This version provides a number of new features,
-improvements and bug fixes
+improvements and bug fixes, like:
+
+* Hybrid deployments on multiple sites
+* Support to specifying specialized computing hardware
+* Improved support for deployment failures
 
 List of RfCs
 ~~~~~~~~~~~~
 -  New features:
 
-   -  Get Onedata access token using the user IAM token (fixes #294
-      XSD-27)
-   -  Describe Dynafed resources in TOSCA (fixes #295 XSD-30)
-   -  Extend the scheduling strategy using Dynafed (fixes #296 XSD-32)
+
    -  Implement Cloud Providers Retry Logic (#288 DPD-121)
    -  Retrieve of information from CMDB (fixes #290 DPD-124)
    -  AuthN through OIDC (fixes #291 DPD-125)
@@ -35,6 +36,11 @@ List of RfCs
 Known Issues
 ~~~~~~~~~~~~
 
+* None
+
+Dependencies
+~~~~~~~~~~~~
+
 The PaaS Orchestrator v.2.1.1-FINAL has the following services dependencies
 
 * CMDB release v0.4 (docker image indigodatacloud/cmdb:indigo_2)
@@ -46,3 +52,6 @@ The PaaS Orchestrator v.2.1.1-FINAL has the following services dependencies
 
 List of Artifacts
 ~~~~~~~~~~~~~~~~~
+* Docker Container:
+    * `indigodatacloud/orchestrator <https://hub.docker.com/r/indigodatacloud/orchestrator/tags/>`__:DEEP-1 (signed)
+    * `indigodatacloud/orchestrator <https://hub.docker.com/r/indigodatacloud/orchestrator/tags/>`__:1.7.5

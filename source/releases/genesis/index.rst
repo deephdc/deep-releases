@@ -46,16 +46,16 @@ Key technical highlights:
    -  OpenID Connect support
    -  Support for standalone service & OpenWhisk action
 
+-  Infrastructure Manager (IM)
+
+   -  Improved support for hybrid deployments Support for additional
+      TOSCA types
+      
 -  PaaS Orchestrator
 
    -  Hybrid deployments on multiple sites
    -  Support to specifying specialized computing hardware Improved
       support for deployment failures
-
--  Infrastructure Manager (IM)
-
-   -  Improved support for hybrid deployments Support for additional
-      TOSCA types
 
 -  Virtual Router
 

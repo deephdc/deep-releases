@@ -53,14 +53,6 @@ Known Issues
 Please see the list of solved issues on
 `Github <https://github.com/indigo-dc/alien4cloud-deep/issues?q=is%3Aopen+is%3Aissue>`__
 
-List of Artifacts
-~~~~~~~~~~~~~~~~~
-
-Docker Container:
-
--  `indigodatacloud/alien4cloud-deep <https://hub.docker.com/r/indigodatacloud/alien4cloud-deep/tags/>`__:DEEP-1 (signed)
--  `indigodatacloud/alien4cloud-deep <https://hub.docker.com/r/indigodatacloud/alien4cloud-deep/tags/>`__:1.1-r0
-
 Dependencies
 ~~~~~~~~~~~~
 
@@ -70,3 +62,11 @@ The Alien4Cloud-DEEP plugin v. 1.1-r0 is known to work with the following:
 - Plugin version: 1.0.4-SNAPSHOT
 - Alien4Cloud Settings Manager version: 1.0.1
 - TOSCA custom-types version: 1.0
+
+
+List of Artifacts
+~~~~~~~~~~~~~~~~~
+
+* Docker Container:
+    * `indigodatacloud/alien4cloud-deep <https://hub.docker.com/r/indigodatacloud/alien4cloud-deep/tags/>`__:DEEP-1 (signed)
+    * `indigodatacloud/alien4cloud-deep <https://hub.docker.com/r/indigodatacloud/alien4cloud-deep/tags/>`__:1.1-r0

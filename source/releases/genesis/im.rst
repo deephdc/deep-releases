@@ -30,7 +30,7 @@ Documentation
 
 Detailed documentation can be found at:
 
-* `GirHub README <https://github.com/indigo-dc/im/blob/master/README.md>`_
+* `GitHub README <https://github.com/indigo-dc/im/blob/master/README.md>`_
 * `IM ReadTheDocs <https://imdocs.readthedocs.io/en/latest/>`_
 * `Ansible Role for IM <https://github.com/indigo-dc/im/blob/master/ansible_install.yaml>`_
 
