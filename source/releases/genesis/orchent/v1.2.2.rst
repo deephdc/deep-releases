@@ -27,5 +27,17 @@ List of RfCs
 Known Issues
 ~~~~~~~~~~~~
 
+* None
+
 List of Artifacts
 ~~~~~~~~~~~~~~~~~
+
+* CentOS-7 RPMS
+    * `orchent-1.2.2.el7.centos.x86_64.rpm <http://repo.indigo-datacloud.eu/repository/deep-hdc/production/1/centos7/x86_64/base/repoview/orchent.html>`_
+
+* Ubuntu 16.04 DEBS
+    * `orchent-1.2.2-amd64.deb <http://repo.indigo-datacloud.eu/repository/deep-hdc/production/1/ubuntu/dists/xenial/main/binary-amd64/orchent-1.2.2-amd64.deb>`_
+
+* Docker Container:
+    * `indigodatacloud/orchent <https://hub.docker.com/r/indigodatacloud/orchent/tags/>`__:DEEP-1 (signed)
+    * `indigodatacloud/orchent <https://hub.docker.com/r/indigodatacloud/orchent/tags/>`__:1.2.2

@@ -4,12 +4,12 @@ v.3.0.0
 What’s new
 ~~~~~~~~~~
 
+This version provides a number of new features,
+improvements and bug fixes
+
 List of RfCs
 ~~~~~~~~~~~~
 
--  Added new types for Onedata and Dynafed storage resources
--  Updated example templates for deploying Chronos dockerized jobs that
-   use Onedata for managing input/output data
 -  Updated example template for deploying a Mesos cluster
 -  Added example template for deploying a Mesos cluster with GPU support
    and a tensorflow container on top of it that uses GPU(s)
@@ -17,7 +17,6 @@ List of RfCs
    apps (marathon)
 -  Added preemtible_instance property to support “spot” instances
 -  Added example template for launching the generic_deepaas mesos job
--  Added Onedata support in DODAS template
 -  Added new types for describing a Kubernetes cluster; new Ansible
    roles implemented.
 -  Added new type for describing a JupyterHub node; new Ansible role
@@ -40,5 +39,11 @@ List of RfCs
 Known Issues
 ~~~~~~~~~~~~
 
+* None
+
 List of Artifacts
 ~~~~~~~~~~~~~~~~~
+
+* Tarballs:
+   * `tosca-types-3.0.0.tar.gz <http://repo.indigo-datacloud.eu/repository/deep-hdc/production/1/centos7/x86_64/tgz/tosca-types-3.0.0.tar.gz>`_
+   * `tosca-templates-3.0.0.tar.gz <http://repo.indigo-datacloud.eu/repository/deep-hdc/production/1/centos7/x86_64/tgz/tosca-templates-3.0.0.tar.gz>`_

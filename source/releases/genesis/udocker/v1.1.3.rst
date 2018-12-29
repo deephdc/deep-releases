@@ -4,6 +4,9 @@ v1.1.3
 What’s new
 ~~~~~~~~~~
 
+This version provides a number of new features,
+improvements and bug fixes
+
 List of RfCs
 ~~~~~~~~~~~~
 
@@ -17,7 +20,6 @@ Tasks
 - [DPD-307] - Force python2 as interpreter
 - [DPD-310] - Directory absolute symlinks in Fn modes not being converted
 
-
 Bugs
 
 - [DPD-297] - Improve parsing of quotes in the command line
@@ -29,5 +31,11 @@ Bugs
 Known Issues
 ~~~~~~~~~~~~
 
+* None
+
 List of Artifacts
 ~~~~~~~~~~~~~~~~~
+
+ Tarball:
+   * `udocker-1.1.3.tar.gz <http://repo.indigo-datacloud.eu/repository/deep-hdc/production/1/centos7/x86_64/tgz/udocker-1.1.3.tar.gz>`_
+ 

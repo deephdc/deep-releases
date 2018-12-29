@@ -4,9 +4,12 @@ v1.7.5
 What’s new
 ~~~~~~~~~~
 
+This new version adds a number of new features and improvements, like the support for
+hybrid deployments, as well as some bug fixes, detailed bellow
+
 List of RfCs
 ~~~~~~~~~~~~
-Tasks
+New features and improvements
 
 - [DPD-167] - Enable hybrid deployment
 - [DPD-172] - Add option to disable XML-RPC API
@@ -17,7 +20,7 @@ Tasks
 - [DPD-263] - Enable to specify spot to EC2 instances in TOSCA
 - [DPD-264] - Get EC2 instances info from ec2instances.info
 
-Bugs
+Bugs fixed
 
 - [DPD-168] - Problem installing specific branch of Ansible galaxy roles
 - [DPD-169] - OCCI server 2.0.4 authentication error
@@ -28,6 +31,17 @@ Bugs
 
 Known Issues
 ~~~~~~~~~~~~
+* None
 
 List of Artifacts
 ~~~~~~~~~~~~~~~~~
+
+* CentOS-7 RPMS
+    * `IM-1.7.5-1.el7.noarch.rpm <http://repo.indigo-datacloud.eu/repository/deep-hdc/production/1/centos7/x86_64/base/repoview/IM.html>`_
+
+* Ubuntu 16.04 DEBS
+    * `python-im_1.7.5-1_all.deb <http://repo.indigo-datacloud.eu/repository/deep-hdc/production/1/ubuntu/dists/xenial/main/binary-amd64/python-python-im_1.7.5-1_all.deb>`_
+
+* Docker Container:
+    * `indigodatacloud/im <https://hub.docker.com/r/indigodatacloud/im/tags/>`__:DEEP-1 (signed)
+    * `indigodatacloud/im <https://hub.docker.com/r/indigodatacloud/im/tags/>`__:1.7.5
