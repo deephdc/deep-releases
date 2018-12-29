@@ -38,7 +38,5 @@ Detailed documentation can be found at:
 Support
 -------
 
-Through:
-
 * GitHub issues: https://github.com/indigo-dc/im/issues
 * DEEP project’s internal support ticketing system: http://jira.deep-hybrid-datacloud.eu/

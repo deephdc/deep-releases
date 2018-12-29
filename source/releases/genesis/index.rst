@@ -154,7 +154,7 @@ YUM & APT configuration files are available at:
 * CentOS7 - http://repo.indigo-datacloud.eu/deep-hdc/repos/deep-1.repo
 * Ubuntu 16.04 - http://repo.indigo-datacloud.eu/deep-hdc/repos/deep-1-ubuntu16_04.list
 
-or use the deep-release package to install DEEP-HDC repositories:
+or use the deephdc-release package to install DEEP-HDC repositories:
 
 * CentOS7:
 .. code-block:: bash
