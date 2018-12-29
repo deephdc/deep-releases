@@ -85,10 +85,10 @@ Release Notes
 
 The DEEP-1/Genesis release consists in 9 Products and a number of technical guides:
 
--  13 OS packages, for CentOS 7 and Ubuntu 16.04
+-  17 OS packages, for CentOS 7 and Ubuntu 16.04
 
-   -  6 RPMS & SRPMS
-   -  4 binary & source DEBS
+   -  8 RPMS & SRPMS
+   -  6 binary & source DEBS
    -  3 tarballs
 
 -  5 Docker containers
@@ -126,8 +126,7 @@ The packages repositories have the following structure:
 
 * DEEP-HDC **preview**: `deep/preview/{1,2}/{centos7,ubuntu}/ <http://repo.indigo-datacloud.eu/repository/deep-hdc/preview/>`_
 
-  * containing signed packages that will become part of the next stable update,
-  available for technical-previews
+  * containing signed packages that will become part of the next stable update, available for technical-previews
 
 All packages in production and preview repositories are signed with the INDIGO - DataCloud gpg key. The public
 key can be downloaded from
@@ -160,19 +159,19 @@ or use the deep-release package to install DEEP-HDC repositories:
 * CentOS7:
 .. code-block:: bash
 
-    wget http://repo.indigo-datacloud.eu/repository/deep-hdc/production/1/centos7/x86_64/base/deep-release-1.0.0-1.el7.centos.noarch.rpm
-    yum localinstall -y deep-release-1.0.0-1.el7.centos.noarch.rpm
+    # wget http://repo.indigo-datacloud.eu/repository/deep-hdc/production/1/centos7/x86_64/base/deephdc-release-1.0.0-1.el7.centos.noarch.rpm
+    # yum localinstall -y deep-release-1.0.0-1.el7.centos.noarch.rpm
 
 * Ubuntu 16.04:
 .. code-block:: bash
 
-    wget http://repo.indigo-datacloud.eu/repository/deep-hdc/1/ubuntu/dists/xenial/main/binary-amd64/deep-release_1.0.0-1_amd64.deb
-    dpkg -i deep-release_1.0.0-1_amd64.deb
+    # wget http://repo.indigo-datacloud.eu/repository/deep-hdc/1/ubuntu/dists/xenial/main/binary-amd64/deephdc-release_1.0.0-1_amd64.deb
+    # dpkg -i deep-release_1.0.0-1_amd64.deb
 
 These packages will install required dependencies, the INDIGO - DataCloud public key and ensures the precedence of DEEP-HybridDataCloud repositories over EPEL and Ubuntu.
 
 It is strongly recommended the use of the lastest version of the
-**deep-release** packages containing the public key and the YUM and APT
+**deephdc-release** packages containing the public key and the YUM and APT
 repository files.
 
 Enable the DEEP-HDC Containers repositories
@@ -196,7 +195,8 @@ the **DOCKER_CONTENT_TRUST** environment variable, like bellow:
 
 For more details regarding the "Content Trust in Docker" please read `Docker's Documentation <https://docs.docker.com/engine/security/trust/content_trust/>`_
 
-Content trust is associated with the TAG portion of an image. For DEEP-1/Genesis release the signed tag is DEEP-1. See example bellow if you want to ensure the correct use of DEEP-HDC images:
+Content trust is associated with the TAG portion of an image. For DEEP-1/Genesis
+release the signed tag is DEEP-1. See example bellow if you want to ensure the correct use of DEEP-HDC images:
 
 .. code-block:: bash
 
@@ -218,11 +218,10 @@ Content trust is associated with the TAG portion of an image. For DEEP-1/Genesis
   REPOSITORY                     TAG                 IMAGE ID            CREATED             SIZE
   indigodatacloud/orchestrator   DEEP-1            bdbe758d9f32        37 hours ago        843MB
 
-
 Documentation
 -------------
 
-Please find DEEP-1 documentation `here <https://releases.deep-hybrid-datacloud.eu/en/latest/>`__.
+Please find DEEP-1 documentation `here <https://releases.deep-hybrid-datacloud.eu/en/preview/releases/genesis/index.html#included-components>`__.
 
 Support
 -------

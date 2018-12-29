@@ -37,8 +37,6 @@ Detailed documentation can be found at:
 Support
 -------
 
-Through:
-
 * GitHub issues:
     * https://github.com/indigo-dc/tosca-types/issues
     * https://github.com/indigo-dc/tosca-templates/issues

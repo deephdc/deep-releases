@@ -17,7 +17,22 @@ DEEP-Hybrid-DataCloud releases
 Release repositories
 --------------------
 
-.. todo:: To be completed
+DEEP-HDC **production** (stable) repositories: 
+
+* `deep-hdc/production/{1,2}/centos7/x86_64/{base|updates} <http://repo.indigo-datacloud.eu/repository/deep-hdc/production/1/centos7/x86_64/base/repoview/>`_
+* `deep-hdc/production/{1,2}/ubuntu/dists/xenial/main/{binary-amd64,source} <http://repo.indigo-datacloud.eu/repository/deep-hdc/production/1/ubuntu/dists/trusty/main/>`_
+
+  * containing signed, well tested software components
+
+* third-party:
+
+  * `deep-hdc/production/{1,2}/centos7/x86_64/third-party <http://repo.indigo-datacloud.eu/repository/deep-hdc/production/1/centos7/x86_64/third-party/>`_
+  * `deep-hdc/production/{1,2}/ubuntu/dists/xenial/third-party{binary-amd64,source} <http://repo.indigo-datacloud.eu/repository/deep-hdc/production/1/ubuntu/dists/trusty/third-party>`_
+
+    * containing packages that are not part of DEEP-HDC project, or not part of the base OS or EPEL, but used as dependencies by other DEEP-HDC components
+
+YUM & APT **configuration files** are available `here <http://repo.indigo-datacloud.eu/deep-hdc/repos>`_
+or use the **deephdc-release** package to install DEEP-HDC repositories
 
 Release schedule
 ----------------
@@ -39,10 +54,13 @@ Support Model
 Supported platforms
 -------------------
 
--  DEEP-HybridDataCloud releases are supported for the following
+*  DEEP-HybridDataCloud releases are supported for the following
    platforms:
 
-   -  CentOS7 & Ubuntu 18.04
+   * CentOS7 & Ubuntu 16.04
+      * for the products distributed through rpms and deb packages
+   * all platforms supporting Docker continers
+      * for the products distributed as docker images 
 
 Supported artifacts & packaging formats
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

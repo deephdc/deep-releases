@@ -27,8 +27,6 @@ Detailed documentation is available at:
 Support
 -------
 
-Through:
-
 * GitHub issues: https://github.com/indigo-dc/orchent/issues
 * DEEP project’s internal support ticketing system: http://jira.deep-hybrid-datacloud.eu/
 
