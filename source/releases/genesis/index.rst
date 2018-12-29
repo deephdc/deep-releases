@@ -109,14 +109,14 @@ The packages repositories have the following structure:
 * DEEP-HDC **production** (stable): 
 
   * `deep-hdc/production/{1,2}/centos7/x86_64/{base|updates} <http://repo.indigo-datacloud.eu/repository/deep-hdc/production/1/centos7/x86_64/base/repoview/>`_
-  * `deep-hdc/production/{1,2}/ubuntu/dists/xenial/main/{binary-amd64,source} <http://repo.indigo-datacloud.eu/repository/deep-hdc/production/1/ubuntu/dists/trusty/main/>`_
+  * `deep-hdc/production/{1,2}/ubuntu/dists/xenial/main/{binary-amd64,source} <http://repo.indigo-datacloud.eu/repository/deep-hdc/production/1/ubuntu/dists/xenial/main/>`_
 
     * containing signed, well tested software components
 
   * third-party:
 
     * `deep-hdc/production/{1,2}/centos7/x86_64/third-party <http://repo.indigo-datacloud.eu/repository/deep-hdc/production/1/centos7/x86_64/third-party/>`_
-    * `deep-hdc/production/{1,2}/ubuntu/dists/xenial/third-party{binary-amd64,source} <http://repo.indigo-datacloud.eu/repository/deep-hdc/production/1/ubuntu/dists/trusty/third-party>`_
+    * `deep-hdc/production/{1,2}/ubuntu/dists/xenial/third-party{binary-amd64,source} <http://repo.indigo-datacloud.eu/repository/deep-hdc/production/1/ubuntu/dists/xenial/third-party>`_
 
       * containing packages that are not part of DEEP, or not part of the base OS or EPEL, but used as dependencies by other DEEP components
 
@@ -160,13 +160,13 @@ or use the deephdc-release package to install DEEP-HDC repositories:
 .. code-block:: bash
 
     # wget http://repo.indigo-datacloud.eu/repository/deep-hdc/production/1/centos7/x86_64/base/deephdc-release-1.0.0-1.el7.centos.noarch.rpm
-    # yum localinstall -y deep-release-1.0.0-1.el7.centos.noarch.rpm
+    # yum localinstall -y deephdc-release-1.0.0-1.el7.centos.noarch.rpm
 
 * Ubuntu 16.04:
 .. code-block:: bash
 
     # wget http://repo.indigo-datacloud.eu/repository/deep-hdc/1/ubuntu/dists/xenial/main/binary-amd64/deephdc-release_1.0.0-1_amd64.deb
-    # dpkg -i deep-release_1.0.0-1_amd64.deb
+    # dpkg -i deephdc-release_1.0.0-1_amd64.deb
 
 These packages will install required dependencies, the INDIGO - DataCloud public key and ensures the precedence of DEEP-HybridDataCloud repositories over EPEL and Ubuntu.
 
