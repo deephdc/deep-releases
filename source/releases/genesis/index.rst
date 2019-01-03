@@ -106,7 +106,7 @@ OperatingSystems (OS) repositories and DockerHub registry of the `indigodataclou
 
 The packages repositories have the following structure:
 
-* DEEP-HDC **production** (stable): 
+* DEEP-HDC **production** (stable):
 
   * `deep-hdc/production/{1,2}/centos7/x86_64/{base|updates} <http://repo.indigo-datacloud.eu/repository/deep-hdc/production/1/centos7/x86_64/base/repoview/>`_
   * `deep-hdc/production/{1,2}/ubuntu/dists/xenial/main/{binary-amd64,source} <http://repo.indigo-datacloud.eu/repository/deep-hdc/production/1/ubuntu/dists/trusty/main/>`_
@@ -188,7 +188,8 @@ tagged with “DEEP-1” tag and signed, leveraging the `Docker’s trust
 features <https://docs.docker.com/engine/security/>`_ so that users can pull trusted images.
 
 Currently, content trust is disabled by default. You must enable it by setting
-the **DOCKER_CONTENT_TRUST** environment variable, like bellow:
+the ``DOCKER_CONTENT_TRUST`` environment variable, like bellow:
+
 .. code-block:: bash
 
   export DOCKER_CONTENT_TRUST=1
@@ -201,7 +202,7 @@ release the signed tag is DEEP-1. See example bellow if you want to ensure the c
 .. code-block:: bash
 
   $ export DOCKER_CONTENT_TRUST=1
- 
+
   $ docker pull indigodatacloud/orchestrator:2.1.1-FINAL
   No trust data for 2.1.1-FINAL
 
