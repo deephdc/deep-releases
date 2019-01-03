@@ -13,7 +13,7 @@ which is already part of the EOSC-HUB service catalogue.
 - With this approach, the user can visually compose complex applications that
   involve, for example, the dynamic deployment of a container orchestration
   platform on an IaaS Cloud site that executes a
-  highly-available Docker-based application to facilitate appication
+  highly-available Docker-based application to facilitate application
   delivery.
 
 - The users can also deploy an Apache Mesos cluster with GPU

@@ -30,12 +30,12 @@ Key technical highlights:
 
 -  Alien4Cloud-DEEP plugin
 
-   -  Suppor for visual composition of TOSCA templates PaaS orchestrator
+   -  Support for visual composition of TOSCA templates PaaS orchestrator
       support
 
 -  cloud-info-provider
 
-   -  Support for GPU and Infibinand resources
+   -  Support for GPU and Infiniband resources
 
 -  DEEPaaS API
 
@@ -102,7 +102,7 @@ Installation Notes
 ------------------
 
 All DEEP - HybridDataCloud products are distributed from standard
-OperatingSystems (OS) repositories and DockerHub registry of the `indigodatacloud <https://cloud.docker.com/u/indigodatacloud/repository/list>`_ organization.
+Operating Systems (OS) repositories and DockerHub registry of the `indigodatacloud <https://cloud.docker.com/u/indigodatacloud/repository/list>`_ organization.
 
 The packages repositories have the following structure:
 
@@ -188,7 +188,7 @@ tagged with “DEEP-1” tag and signed, leveraging the `Docker’s trust
 features <https://docs.docker.com/engine/security/>`_ so that users can pull trusted images.
 
 Currently, content trust is disabled by default. You must enable it by setting
-the ``DOCKER_CONTENT_TRUST`` environment variable, like bellow:
+the ``DOCKER_CONTENT_TRUST`` environment variable, like below:
 
 .. code-block:: bash
 

@@ -36,7 +36,7 @@ Detailed documentation is available at:
 
 * https://github.com/EGI-Foundation/cloud-info-provider
 
-Documentation specific for the DEEP-HDC vesion is available at:
+Documentation specific for the DEEP-HDC version is available at:
 
 * https://github.com/indigo-dc/cloud-info-provider-deep/blob/DEEP/README-DEEP.md
 
