@@ -232,7 +232,7 @@ features of free and open source software is the ability to report bugs,
 helping to fix or improve the software you use.
 
 DEEP - HybridDataCloud project uses the `INDIGO Catch-All GGUS - Support Unit <https://wiki.egi.eu/wiki/GGUS:INDIGO_DataCloud_Catch-all_FAQ>`_ and
-the *deephdc-support@listas.csic.eu* for general support requests. 
+the *deep-support@listas.csic.eu* for general support requests. 
 More details regarding each product support channels are provided in the
 respective products release pages.
 
