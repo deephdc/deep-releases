@@ -17,6 +17,15 @@ DEEP-Hybrid-DataCloud releases
 Release repositories
 --------------------
 
+Source Code repositories
+~~~~~~~~~~~~~~~~~~~~~~~~
+
+Source code repositories are available on GitHub under the **indigo-dc** and **deephdc** organizations - http://bit.ly/deep-hdc
+
+
+Artefacts repositories
+~~~~~~~~~~~~~~~~~~~~~~
+
 DEEP-HDC **production** (stable) repositories:
 
 * `deep-hdc/production/{1,2}/centos7/x86_64/{base|updates} <http://repo.indigo-datacloud.eu/repository/deep-hdc/production/1/centos7/x86_64/base/repoview/>`_
