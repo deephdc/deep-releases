@@ -222,7 +222,7 @@ release the signed tag is DEEP-1. See example bellow if you want to ensure the c
 Documentation
 -------------
 
-Please find DEEP-1 documentation `here <https://releases.deep-hybrid-datacloud.eu/en/preview/releases/genesis/index.html#included-components>`__.
+Please find DEEP-1 documentation `here <https://releases.deep-hybrid-datacloud.eu/en/preview/releases/genesis/index.html#included-components>`_.
 
 Support
 -------
@@ -231,14 +231,14 @@ Most complex software contains bugs, we are not an exception. One of the
 features of free and open source software is the ability to report bugs,
 helping to fix or improve the software you use.
 
-DEEP - HybridDataCloud project uses …
-
+DEEP - HybridDataCloud project uses the `INDIGO Catch-All GGUS - Support Unit <https://wiki.egi.eu/wiki/GGUS:INDIGO_DataCloud_Catch-all_FAQ>`_ and
+the *deephdc-support@listas.csic.eu* for general support requests. 
 More details regarding each product support channels are provided in the
 respective products release pages.
 
 Developers, researchers and IT enthusiasts: feel free to write to
-info@project to ask for more information on how to use DEEP solutions
+*deep-info@listas.csic.es* to ask for more information on how to use DEEP solutions
 for your work. For automatic notifications you can register to the DEEP
 - HybridDataCloud release RSS feed or subscribe to the DEEP -
 HybridDataCloud Announce Mailing list. You can also socialize with us
-via Twitter, Facebook and join our LinkedIn group.
+via `Twitter <http://twitter.com/DEEP_eu>`_ or by joining our `LinkedIn group <https://www.linkedin.com/groups/12093546>`_.
