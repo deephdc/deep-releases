@@ -50,7 +50,7 @@ Complete list of solved issues is available at:
 Known Issues
 ~~~~~~~~~~~~
 
-Please see the list of solved issues on
+Please see the list of known issues on
 `Github <https://github.com/indigo-dc/alien4cloud-deep/issues?q=is%3Aopen+is%3Aissue>`__
 
 Dependencies
