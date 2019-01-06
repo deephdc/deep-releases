@@ -1,4 +1,4 @@
-INDIGO Virtual Router Configurator
+INDIGO Virtual Router Configurer
 =======
 
 .. contents:: Table of Contents
@@ -9,7 +9,7 @@ is contained in Ansible roles.
 
 The purpose of the INDIGO-DC Virtual Router is establishing
 an overlay virtual private network to interconnect nodes in
-a cloud platofrm deployment even if deployed in multiple,
+a cloud platform deployment even if deployed in multiple,
 geographically distant sites.
 
 

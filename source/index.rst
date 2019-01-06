@@ -1,7 +1,7 @@
-Welcome to DEEP-Hybrid-DataCloud releases's page
-================================================
+Welcome to DEEP-Hybrid-DataCloud releases page
+==============================================
 
-You'll find here usefull information regarding the DEEP-HybridDataCloud
+You'll find here useful information regarding the DEEP-HybridDataCloud
 services and components **releases**, their schedules, documentation and
 support.
 
@@ -17,7 +17,16 @@ DEEP-Hybrid-DataCloud releases
 Release repositories
 --------------------
 
-DEEP-HDC **production** (stable) repositories: 
+Source Code repositories
+~~~~~~~~~~~~~~~~~~~~~~~~
+
+Source code repositories are available on GitHub under the **indigo-dc** and **deephdc** organizations - http://bit.ly/deep-hdc
+
+
+Artefacts repositories
+~~~~~~~~~~~~~~~~~~~~~~
+
+DEEP-HDC **production** (stable) repositories:
 
 * `deep-hdc/production/{1,2}/centos7/x86_64/{base|updates} <http://repo.indigo-datacloud.eu/repository/deep-hdc/production/1/centos7/x86_64/base/repoview/>`_
 * `deep-hdc/production/{1,2}/ubuntu/dists/xenial/main/{binary-amd64,source} <http://repo.indigo-datacloud.eu/repository/deep-hdc/production/1/ubuntu/dists/xenial/main/>`_
@@ -59,8 +68,8 @@ Supported platforms
 
    * CentOS7 & Ubuntu 16.04
       * for the products distributed through rpms and deb packages
-   * all platforms supporting Docker continers
-      * for the products distributed as docker images 
+   * all platforms supporting Docker containers
+      * for the products distributed as docker images
 
 Supported artifacts & packaging formats
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

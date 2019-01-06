@@ -30,12 +30,12 @@ Key technical highlights:
 
 -  Alien4Cloud-DEEP plugin
 
-   -  Suppor for visual composition of TOSCA templates PaaS orchestrator
+   -  Support for visual composition of TOSCA templates PaaS orchestrator
       support
 
 -  cloud-info-provider
 
-   -  Support for GPU and Infibinand resources
+   -  Support for GPU and Infiniband resources
 
 -  DEEPaaS API
 
@@ -102,11 +102,11 @@ Installation Notes
 ------------------
 
 All DEEP - HybridDataCloud products are distributed from standard
-OperatingSystems (OS) repositories and DockerHub registry of the `indigodatacloud <https://cloud.docker.com/u/indigodatacloud/repository/list>`_ organization.
+Operating Systems (OS) repositories and DockerHub registry of the `indigodatacloud <https://cloud.docker.com/u/indigodatacloud/repository/list>`_ organization.
 
 The packages repositories have the following structure:
 
-* DEEP-HDC **production** (stable): 
+* DEEP-HDC **production** (stable):
 
   * `deep-hdc/production/{1,2}/centos7/x86_64/{base|updates} <http://repo.indigo-datacloud.eu/repository/deep-hdc/production/1/centos7/x86_64/base/repoview/>`_
   * `deep-hdc/production/{1,2}/ubuntu/dists/xenial/main/{binary-amd64,source} <http://repo.indigo-datacloud.eu/repository/deep-hdc/production/1/ubuntu/dists/xenial/main/>`_
@@ -188,7 +188,8 @@ tagged with “DEEP-1” tag and signed, leveraging the `Docker’s trust
 features <https://docs.docker.com/engine/security/>`_ so that users can pull trusted images.
 
 Currently, content trust is disabled by default. You must enable it by setting
-the **DOCKER_CONTENT_TRUST** environment variable, like bellow:
+the ``DOCKER_CONTENT_TRUST`` environment variable, like below:
+
 .. code-block:: bash
 
   export DOCKER_CONTENT_TRUST=1
@@ -201,7 +202,7 @@ release the signed tag is DEEP-1. See example bellow if you want to ensure the c
 .. code-block:: bash
 
   $ export DOCKER_CONTENT_TRUST=1
- 
+
   $ docker pull indigodatacloud/orchestrator:2.1.1-FINAL
   No trust data for 2.1.1-FINAL
 
@@ -221,7 +222,7 @@ release the signed tag is DEEP-1. See example bellow if you want to ensure the c
 Documentation
 -------------
 
-Please find DEEP-1 documentation `here <https://releases.deep-hybrid-datacloud.eu/en/preview/releases/genesis/index.html#included-components>`__.
+Please find DEEP-1 documentation `here <https://releases.deep-hybrid-datacloud.eu/en/preview/releases/genesis/index.html#included-components>`_.
 
 Support
 -------
@@ -230,14 +231,14 @@ Most complex software contains bugs, we are not an exception. One of the
 features of free and open source software is the ability to report bugs,
 helping to fix or improve the software you use.
 
-DEEP - HybridDataCloud project uses …
-
+DEEP - HybridDataCloud project uses the `INDIGO Catch-All GGUS - Support Unit <https://wiki.egi.eu/wiki/GGUS:INDIGO_DataCloud_Catch-all_FAQ>`_ and
+the *deep-support@listas.csic.eu* for general support requests. 
 More details regarding each product support channels are provided in the
 respective products release pages.
 
 Developers, researchers and IT enthusiasts: feel free to write to
-info@project to ask for more information on how to use DEEP solutions
+*deep-info@listas.csic.es* to ask for more information on how to use DEEP solutions
 for your work. For automatic notifications you can register to the DEEP
 - HybridDataCloud release RSS feed or subscribe to the DEEP -
 HybridDataCloud Announce Mailing list. You can also socialize with us
-via Twitter, Facebook and join our LinkedIn group.
+via `Twitter <http://twitter.com/DEEP_eu>`_ or by joining our `LinkedIn group <https://www.linkedin.com/groups/12093546>`_.
