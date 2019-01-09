@@ -1,4 +1,4 @@
-INDIGO Virtual Router Configurer
+INDIGO Virtual Router Configurator
 =======
 
 .. contents:: Table of Contents

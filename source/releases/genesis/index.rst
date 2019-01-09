@@ -115,7 +115,7 @@ The packages repositories have the following structure:
 
   * third-party:
 
-    * `deep-hdc/production/{1,2}/centos7/x86_64/third-party <http://repo.indigo-datacloud.eu/repository/deep-hdc/production/1/centos7/x86_64/third-party/>`_
+    * `deep-hdc/production/{1,2}/centos7/x86_64/third-party <http://repo.indigo-datacloud.eu/repository/deep-hdc/production/1/centos7/x86_64/third-party/repoview>`_
     * `deep-hdc/production/{1,2}/ubuntu/dists/xenial/third-party{binary-amd64,source} <http://repo.indigo-datacloud.eu/repository/deep-hdc/production/1/ubuntu/dists/xenial/third-party>`_
 
       * containing packages that are not part of DEEP, or not part of the base OS or EPEL, but used as dependencies by other DEEP components
@@ -196,7 +196,7 @@ the ``DOCKER_CONTENT_TRUST`` environment variable, like below:
 
 For more details regarding the "Content Trust in Docker" please read `Docker's Documentation <https://docs.docker.com/engine/security/trust/content_trust/>`_
 
-Content trust is associated with the TAG portion of an image. For DEEP-1/Genesis
+Content trust is associated with the TAG portion of an image. For DEEP-1 (Genesis)
 release the signed tag is DEEP-1. See example bellow if you want to ensure the correct use of DEEP-HDC images:
 
 .. code-block:: bash
@@ -222,7 +222,7 @@ release the signed tag is DEEP-1. See example bellow if you want to ensure the c
 Documentation
 -------------
 
-Please find DEEP-1 documentation `here <https://releases.deep-hybrid-datacloud.eu/en/preview/releases/genesis/index.html#included-components>`_.
+Please find DEEP-1 services and components documentation at `Included components`_.
 
 Support
 -------
