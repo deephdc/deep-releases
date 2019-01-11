@@ -159,8 +159,8 @@ or use the deephdc-release package to install DEEP-HDC repositories:
 * CentOS7:
 .. code-block:: bash
 
-    # wget http://repo.indigo-datacloud.eu/repository/deep-hdc/production/1/centos7/x86_64/base/deephdc-release-1.0.0-1.el7.centos.noarch.rpm
-    # yum localinstall -y deephdc-release-1.0.0-1.el7.centos.noarch.rpm
+    # wget http://repo.indigo-datacloud.eu/repository/deep-hdc/production/1/centos7/x86_64/base/deephdc-release-1.0.0-1.el7.noarch.rpm
+    # yum localinstall -y deephdc-release-1.0.0-1.el7.noarch.rpm
 
 * Ubuntu 16.04:
 .. code-block:: bash
