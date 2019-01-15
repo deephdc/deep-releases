@@ -39,9 +39,9 @@ Key technical highlights:
 
 -  DEEPaaS API
 
-   -  Support for training a machine learning application Support for
-      performing inferences/analisys/predictions Support only for
-      synchronous requests
+   -  Support for training a machine learning application
+   -  Support for performing inferences/analisys/predictions
+   -  Support only for synchronous requests
    -  OpenID Connect support
    -  Support for standalone service & OpenWhisk action
 
