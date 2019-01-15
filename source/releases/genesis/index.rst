@@ -30,8 +30,8 @@ Key technical highlights:
 
 -  Alien4Cloud-DEEP plugin
 
-   -  Support for visual composition of TOSCA templates PaaS orchestrator
-      support
+   -  Support for visual composition of TOSCA templates
+   -  PaaS orchestrator support
 
 -  cloud-info-provider
 
@@ -47,8 +47,8 @@ Key technical highlights:
 
 -  Infrastructure Manager (IM)
 
-   -  Improved support for hybrid deployments Support for additional
-      TOSCA types
+   -  Improved support for hybrid deployments
+   -  Support for additional TOSCA types
 
 -  PaaS Orchestrator
 
@@ -83,7 +83,8 @@ Key technical highlights:
 Release Notes
 -------------
 
-The DEEP-1/Genesis release consists in 9 Products and a number of technical guides:
+The DEEP-1/Genesis release consists in 9 Products and a number of
+technical guides:
 
 -  17 OS packages, for CentOS 7 and Ubuntu 16.04
 
@@ -128,8 +129,8 @@ The packages repositories have the following structure:
 
   * containing signed packages that will become part of the next stable update, available for technical-previews
 
-All packages in production and preview repositories are signed with the INDIGO - DataCloud gpg key. The public
-key can be downloaded from
+All packages in production and preview repositories are signed with the
+INDIGO - DataCloud gpg key. The public key can be downloaded from
 `here <http://repo.indigo-datacloud.eu/repository/RPM-GPG-KEY-indigodc>`__,
 and the fingerprint from
 `here <http://repo.indigo-datacloud.eu/repository/INDIGODC_key_fingerprint.asc>`__.
@@ -168,7 +169,9 @@ or use the deephdc-release package to install DEEP-HDC repositories:
     # wget http://repo.indigo-datacloud.eu/repository/deep-hdc/1/ubuntu/dists/xenial/main/binary-amd64/deephdc-release_1.0.0-1_amd64.deb
     # dpkg -i deephdc-release_1.0.0-1_amd64.deb
 
-These packages will install required dependencies, the INDIGO - DataCloud public key and ensures the precedence of DEEP-HybridDataCloud repositories over EPEL and Ubuntu.
+These packages will install required dependencies, the INDIGO - DataCloud
+public key and ensures the precedence of DEEP-HybridDataCloud repositories
+over EPEL and Ubuntu.
 
 It is strongly recommended the use of the lastest version of the
 **deephdc-release** packages containing the public key and the YUM and APT
@@ -196,8 +199,9 @@ the ``DOCKER_CONTENT_TRUST`` environment variable, like below:
 
 For more details regarding the "Content Trust in Docker" please read `Docker's Documentation <https://docs.docker.com/engine/security/trust/content_trust/>`_
 
-Content trust is associated with the TAG portion of an image. For DEEP-1 (Genesis)
-release the signed tag is DEEP-1. See example bellow if you want to ensure the correct use of DEEP-HDC images:
+Content trust is associated with the TAG portion of an image.
+For DEEP-1 (Genesis) release the signed tag is DEEP-1. See example bellow
+if you want to ensure the correct use of DEEP-HDC images:
 
 .. code-block:: bash
 
@@ -222,7 +226,8 @@ release the signed tag is DEEP-1. See example bellow if you want to ensure the c
 Documentation
 -------------
 
-Please find DEEP-1 services and components documentation at `Included components`_.
+Please find DEEP-1 services and components documentation
+at `Included components`_.
 
 Support
 -------
@@ -232,7 +237,7 @@ features of free and open source software is the ability to report bugs,
 helping to fix or improve the software you use.
 
 DEEP - HybridDataCloud project uses the `INDIGO Catch-All GGUS - Support Unit <https://wiki.egi.eu/wiki/GGUS:INDIGO_DataCloud_Catch-all_FAQ>`_ and
-the *deep-support@listas.csic.eu* for general support requests. 
+the *deep-support@listas.csic.eu* for general support requests.
 More details regarding each product support channels are provided in the
 respective products release pages.
 
