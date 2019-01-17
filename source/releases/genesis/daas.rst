@@ -14,7 +14,7 @@ Release Notes
 .. toctree::
    :maxdepth: 1
    :glob:
-
+   
    daas/*
 
 Documentation
@@ -22,7 +22,6 @@ Documentation
 
 Detailed documentation can be found at:
 
-* https://github.com/indigo-dc/DEEPaaS/blob/0.1.0/README.md
 * `DEEPaaS API ReadTheDocs <https://deepaas.readthedocs.io/>`_
 
 Support
