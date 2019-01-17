@@ -1,0 +1,24 @@
+v 0.2.0
+------
+
+What’s new
+~~~~~~~~~~
+
+This new version allows the user  to specify which arguments the underlying model accepts. In this release users can implement a “get_train_args” function in the module entry point, allowing to expose those arguments through the API.
+
+List of RfCs
+~~~~~~~~~~~~
+
+* `Ability to specify parameters for "train" <https://jira.deep-hybrid-datacloud.eu/browse/DPD-267>`__
+
+Known Issues
+~~~~~~~~~~~~
+
+* None
+
+List of Artifacts
+~~~~~~~~~~~~~~~~~
+
+* Docker Container:
+    * `indigodatacloud/deepaas <https://hub.docker.com/r/indigodatacloud/deepaas/tags/>`__:DEEP-1 (signed)
+    * `indigodatacloud/deepaas <https://hub.docker.com/r/indigodatacloud/deepaas/tags/>`__:0.2.0
