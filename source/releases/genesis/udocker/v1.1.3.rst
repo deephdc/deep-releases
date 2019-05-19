@@ -37,5 +37,5 @@ List of Artifacts
 ~~~~~~~~~~~~~~~~~
 
  Tarball:
-   * `udocker-1.1.3.tar.gz <http://repo.indigo-datacloud.eu/repository/deep-hdc/production/1/centos7/x86_64/tgz/udocker-1.1.3.tar.gz>`_
+   * `udocker-1.1.3.tar.gz <https://repo.indigo-datacloud.eu/repository/deep-hdc/production/1/centos7/x86_64/tgz/udocker-1.1.3.tar.gz>`_
  

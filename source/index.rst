@@ -40,7 +40,7 @@ DEEP-HDC **production** (stable) repositories:
 
     * containing packages that are not part of DEEP-HDC project, or not part of the base OS or EPEL, but used as dependencies by other DEEP-HDC components
 
-YUM & APT **configuration files** are available `here <http://repo.indigo-datacloud.eu/deep-hdc/repos>`_
+YUM & APT **configuration files** are available `here <http://repo.indigo-datacloud.eu/repository/deep-hdc/repos>`_
 or use the **deephdc-release** package to install DEEP-HDC repositories
 
 Release schedule
