@@ -45,6 +45,6 @@ Support
 -------
 
 - GitHub issues: https://github.com/EGI-Foundation/cloud-info-provider/issues?q=is%3Aissue+is%3Aclosed
-- DEEP project’s internal support ticketing system: http://jira.deep-hybrid-datacloud.eu/
+- DEEP project’s internal support ticketing system: https://jira.deep-hybrid-datacloud.eu/
 - EGI GGUS Support Unit: https://wiki.egi.eu/wiki/GGUS:EGI_Cloud_Information_Discovery_FAQ
 

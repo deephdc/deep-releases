@@ -42,7 +42,7 @@ Support
 
 * GitHub issues:
     * https://github.com/indigo-dc/udocker/issues
-* DEEP project’s internal support ticketing system: http://jira.deep-hybrid-datacloud.eu/
+* DEEP project’s internal support ticketing system: https://jira.deep-hybrid-datacloud.eu/
 
 
 

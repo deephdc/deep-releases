@@ -52,4 +52,4 @@ Support
 
 - GitHub issues: https://github.com/indigo-dc/alien4cloud-deep/issues
 
-- DEEP project’s internal support ticketing system: http://jira.deep-hybrid-datacloud.eu/
+- DEEP project’s internal support ticketing system: https://jira.deep-hybrid-datacloud.eu/

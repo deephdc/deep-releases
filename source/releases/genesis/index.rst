@@ -140,33 +140,33 @@ Please import the key BEFORE starting!
 * for CentOS7 save the key under /etc/pki/rpm-gpg/
 .. code-block:: bash
 
-    # rpm --import http://repo.indigo-datacloud.eu/repository/RPM-GPG-KEY-indigodc
+    # rpm --import https://repo.indigo-datacloud.eu/repository/RPM-GPG-KEY-indigodc
 
 * for Ubuntu:
 .. code-block:: bash
 
-    # wget -q -O - http://repo.indigo-datacloud.eu/repository/RPM-GPG-KEY-indigodc | sudo apt-key add -
+    # wget -q -O - https://repo.indigo-datacloud.eu/repository/RPM-GPG-KEY-indigodc | sudo apt-key add -
 
 Configuring the use of DEEP-HDC repositories
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 YUM & APT configuration files are available at:
 
-* CentOS7 - http://repo.indigo-datacloud.eu/deep-hdc/repos/deep-1.repo
-* Ubuntu 16.04 - http://repo.indigo-datacloud.eu/deep-hdc/repos/deep-1-ubuntu16_04.list
+* CentOS7 - https://repo.indigo-datacloud.eu/deep-hdc/repos/deep-1.repo
+* Ubuntu 16.04 - https://repo.indigo-datacloud.eu/deep-hdc/repos/deep-1-ubuntu16_04.list
 
 or use the deephdc-release package to install DEEP-HDC repositories:
 
 * CentOS7:
 .. code-block:: bash
 
-    # wget http://repo.indigo-datacloud.eu/repository/deep-hdc/production/1/centos7/x86_64/base/deephdc-release-1.0.0-1.el7.noarch.rpm
+    # wget https://repo.indigo-datacloud.eu/repository/deep-hdc/production/1/centos7/x86_64/base/deephdc-release-1.0.0-1.el7.noarch.rpm
     # yum localinstall -y deephdc-release-1.0.0-1.el7.noarch.rpm
 
 * Ubuntu 16.04:
 .. code-block:: bash
 
-    # wget http://repo.indigo-datacloud.eu/repository/deep-hdc/1/ubuntu/dists/xenial/main/binary-amd64/deephdc-release_1.0.0-1_amd64.deb
+    # wget https://repo.indigo-datacloud.eu/repository/deep-hdc/1/ubuntu/dists/xenial/main/binary-amd64/deephdc-release_1.0.0-1_amd64.deb
     # dpkg -i deephdc-release_1.0.0-1_amd64.deb
 
 These packages will install required dependencies, the INDIGO - DataCloud
