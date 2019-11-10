@@ -10,7 +10,7 @@ List of RfCs
 ~~~~~~~~~~~~
 New features and improvements
 
-- [DPD-589] - Enable to add routes in GCE conn
+- [<a href='https://jira.deep-hybrid-datacloud.eu/browse/DPD-589'>DPD-589</a>] - Enable to add routes in GCE conn
 - [DPD-590] - Get last version of AppDB image in OCCI conn
 - [DPD-591] - Change FogBow connector to new APIs (Buzios)
 - [DPD-597] - Handling of special characters in error messages from OpenStack
@@ -25,7 +25,7 @@ New features and improvements
 
 Bugs fixed
 
-- [DPD-587] - Error creating FW in GCE conn if outports is empty
+- [<a href='https://jira.deep-hybrid-datacloud.eu/browse/DPD-587'>DPD-587</a>] - Error creating FW in GCE conn if outports is empty
 - [DPD-588] - Issues with Ansible 2.8
 - [DPD-592] - Error adding a floating IP when there is a floating ip free
 - [DPD-593] - Some floating IPs does not appear in the IM ctxt config files
