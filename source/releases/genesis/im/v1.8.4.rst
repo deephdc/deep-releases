@@ -10,7 +10,7 @@ List of RfCs
 ~~~~~~~~~~~~
 New features and improvements
 
-- [`DPD-589 <https://jira.deep-hybrid-datacloud.eu/browse/DPD-589>`] - Enable to add routes in GCE conn
+- [`DPD-589 <https://jira.deep-hybrid-datacloud.eu/browse/DPD-589>`__] - Enable to add routes in GCE conn
 - [DPD-590] - Get last version of AppDB image in OCCI conn
 - [DPD-591] - Change FogBow connector to new APIs (Buzios)
 - [DPD-597] - Handling of special characters in error messages from OpenStack
