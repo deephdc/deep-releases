@@ -11,32 +11,32 @@ List of RfCs
 New features and improvements
 
 - [`DPD-589 <https://jira.deep-hybrid-datacloud.eu/browse/DPD-589>`__] - Enable to add routes in GCE conn
-- [DPD-590] - Get last version of AppDB image in OCCI conn
-- [DPD-591] - Change FogBow connector to new APIs (Buzios)
-- [DPD-597] - Handling of special characters in error messages from OpenStack
-- [DPD-598] - Keypairs left behind on OpenStack
-- [DPD-600] - Add missing volume_url parameter to OpenStack conn
-- [DPD-601] - Remove keypair creation in EC2 conn
-- [DPD-602] - Add error messages in case of error creating volumes
-- [DPD-603] - Remove ec2 classic supoort
-- [DPD-606] - Enable network creation in connectors
+- [`DPD-590 <https://jira.deep-hybrid-datacloud.eu/browse/DPD-590>`__] - Get last version of AppDB image in OCCI conn
+- [`DPD-591 <https://jira.deep-hybrid-datacloud.eu/browse/DPD-591>`__] - Change FogBow connector to new APIs (Buzios)
+- [`DPD-597 <https://jira.deep-hybrid-datacloud.eu/browse/DPD-597>`__] - Handling of special characters in error messages from OpenStack
+- [`DPD-598 <https://jira.deep-hybrid-datacloud.eu/browse/DPD-598>`__] - Keypairs left behind on OpenStack
+- [`DPD-600 <https://jira.deep-hybrid-datacloud.eu/browse/DPD-600>`__] - Add missing volume_url parameter to OpenStack conn
+- [`DPD-601 <https://jira.deep-hybrid-datacloud.eu/browse/DPD-601>`__] - Remove keypair creation in EC2 conn
+- [`DPD-602 <https://jira.deep-hybrid-datacloud.eu/browse/DPD-602>`__] - Add error messages in case of error creating volumes
+- [`DPD-603 <https://jira.deep-hybrid-datacloud.eu/browse/DPD-603>`__] - Remove ec2 classic supoort
+- [`DPD-606 <https://jira.deep-hybrid-datacloud.eu/browse/DPD-606>`__] - Enable network creation in connectors
 
 
 
 Bugs fixed
 
-- [<a href='https://jira.deep-hybrid-datacloud.eu/browse/DPD-587'>DPD-587</a>] - Error creating FW in GCE conn if outports is empty
-- [DPD-588] - Issues with Ansible 2.8
-- [DPD-592] - Error adding a floating IP when there is a floating ip free
-- [DPD-593] - Some floating IPs does not appear in the IM ctxt config files
-- [DPD-594] - On infrastructure creation the VM status is unknown instead of pending
-- [DPD-595] - Error 500 is returned in case of TOSCA parser errors
-- [DPD-596] - Error adding two volumes to a VM in OCCI conn
-- [DPD-599] - Errors with PyYAML version 5.1
-- [DPD-604] - Error reconfiguring with a new RADL
-- [DPD-605] - Error getting keystone token in OCCI conn
-- [DPD-607] - Error in openstack conn in case of setting auth data with a host without port
-- [DPD-608] - Error in OpenNebula conn in case of error in function call
+- [`DPD-587 <https://jira.deep-hybrid-datacloud.eu/browse/DPD-587>`__] - Error creating FW in GCE conn if outports is empty
+- [`DPD-588 <https://jira.deep-hybrid-datacloud.eu/browse/DPD-588>`__] - Issues with Ansible 2.8
+- [`DPD-592 <https://jira.deep-hybrid-datacloud.eu/browse/DPD-592>`__] - Error adding a floating IP when there is a floating ip free
+- [`DPD-593 <https://jira.deep-hybrid-datacloud.eu/browse/DPD-593>`__] - Some floating IPs does not appear in the IM ctxt config files
+- [`DPD-594 <https://jira.deep-hybrid-datacloud.eu/browse/DPD-594>`__] - On infrastructure creation the VM status is unknown instead of pending
+- [`DPD-595 <https://jira.deep-hybrid-datacloud.eu/browse/DPD-595>`__] - Error 500 is returned in case of TOSCA parser errors
+- [`DPD-596 <https://jira.deep-hybrid-datacloud.eu/browse/DPD-596>`__] - Error adding two volumes to a VM in OCCI conn
+- [`DPD-599 <https://jira.deep-hybrid-datacloud.eu/browse/DPD-599>`__] - Errors with PyYAML version 5.1
+- [`DPD-604 <https://jira.deep-hybrid-datacloud.eu/browse/DPD-604>`__] - Error reconfiguring with a new RADL
+- [`DPD-605 <https://jira.deep-hybrid-datacloud.eu/browse/DPD-605>`__] - Error getting keystone token in OCCI conn
+- [`DPD-607 <https://jira.deep-hybrid-datacloud.eu/browse/DPD-607>`__] - Error in openstack conn in case of setting auth data with a host without port
+- [`DPD-608 <https://jira.deep-hybrid-datacloud.eu/browse/DPD-608>`__] - Error in OpenNebula conn in case of error in function call
 
 
 
