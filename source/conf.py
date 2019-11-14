@@ -24,9 +24,9 @@ copyright = '2018, DEEP-Hybrid-DataCloud consortium'
 author = 'DEEP-Hybrid-DataCloud consortium'
 
 # The short X.Y version
-version = ''
+version = 'DEEP-2 (XXX)'
 # The full version, including alpha/beta/rc tags
-release = ''
+release = 'DEEP-2 (XXX)'
 
 
 # -- General configuration ---------------------------------------------------
@@ -88,7 +88,7 @@ html_theme_options = {
     'collapse_navigation': False,
 }
 
-html_logo = "_static/logo.png"
+html_logo = "_static/logo-deep-solid-white.png"
 
 # Custom sidebar templates, must be a dictionary that maps document names
 # to template names.
