@@ -28,3 +28,4 @@ Support
 
 * GitHub issues: https://github.com/indigo-dc/spring-social-oidc/issues
 * DEEP project’s internal support ticketing system: https://jira.deep-hybrid-datacloud.eu/
+* Main developer: jose.sanchezm@atos.net
