@@ -23,7 +23,9 @@ Most important features and improvements:
 
 - Jira issues under Alien4cloud-deep component version "Alien4cloud 2.0-r0) 
   - Tasks:
+
   .. raw:: html
+  
     <embed>
     <h2> Task
     </h2>
