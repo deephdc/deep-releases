@@ -196,7 +196,7 @@ The Alien4Cloud-DEEP plugin v. 2.0-r0 is known to work with the following:
 Installation methods 
 ~~~~~~~~~~~~~~~~~~~~
 
-* automatic deployment by Docker
+* automatic deployment by using the Docker image
 
 List of Artifacts
 ~~~~~~~~~~~~~~~~~

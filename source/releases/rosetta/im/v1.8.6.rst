@@ -1,0 +1,85 @@
+v1.8.6
+------
+
+What’s new
+~~~~~~~~~~
+
+* Fixed some issues deploying hybrid clusters.
+* Enable to force the deletion of an infrastructure
+* Enable to boo the IM in "ReadOnly" modes.
+* Some minor bugfixes and enhancements.
+
+List of RfCs
+~~~~~~~~~~~~
+
+  .. raw:: html
+
+    <embed>
+    <h4>        Task
+    </h4>
+    <ul>
+    <li>[<a href='https://jira.deep-hybrid-datacloud.eu/browse/DPD-686'>DPD-686</a>] -         Enable to boot IM in &quot;ReadOnly&quot; modes
+    </li>
+    <li>[<a href='https://jira.deep-hybrid-datacloud.eu/browse/DPD-687'>DPD-687</a>] -         Enable to force the deletion of an infrastructure
+    </li>
+    <li>[<a href='https://jira.deep-hybrid-datacloud.eu/browse/DPD-690'>DPD-690</a>] -         Enable to specify GPU and SGX in Fogbow conn
+    </li>
+    <li>[<a href='https://jira.deep-hybrid-datacloud.eu/browse/DPD-692'>DPD-692</a>] -         Enable to use appdb urls in OpenStack conn
+    </li>
+    <li>[<a href='https://jira.deep-hybrid-datacloud.eu/browse/DPD-698'>DPD-698</a>] -         Enable to specify the snapshot name in disk url in EC2 conn 
+    </li>
+    </ul>
+    <br>
+        
+    <h4>        Bug
+    </h4>
+    <ul>
+    <li>[<a href='https://jira.deep-hybrid-datacloud.eu/browse/DPD-688'>DPD-688</a>] -         Error attaching new disks in OCCI conn in OpenNebula site
+    </li>
+    <li>[<a href='https://jira.deep-hybrid-datacloud.eu/browse/DPD-689'>DPD-689</a>] -         Network mapping in case of using CIDR is not correct
+    </li>
+    <li>[<a href='https://jira.deep-hybrid-datacloud.eu/browse/DPD-691'>DPD-691</a>] -         Error assigning target to disks with image url in OpenNebula conn
+    </li>
+    <li>[<a href='https://jira.deep-hybrid-datacloud.eu/browse/DPD-693'>DPD-693</a>] -         Error in hybrid clusters, no WN deployed in external site
+    </li>
+    <li>[<a href='https://jira.deep-hybrid-datacloud.eu/browse/DPD-694'>DPD-694</a>] -         Error loading infra data from DB
+    </li>
+    <li>[<a href='https://jira.deep-hybrid-datacloud.eu/browse/DPD-695'>DPD-695</a>] -         Error in SSH reverse tunnels in case of using IM auth token
+    </li>
+    <li>[<a href='https://jira.deep-hybrid-datacloud.eu/browse/DPD-697'>DPD-697</a>] -         Error creating GCE FW
+    </li>
+    </ul>
+    <br>
+    </embed>
+
+* `GitHub solved issues <https://github.com/grycap/im/milestone/30?closed=1>`__
+
+Known Issues
+~~~~~~~~~~~~
+* None
+
+Installation methods
+~~~~~~~~~~~~~~~~~~~~
+
+* The recommended option to use the Infrastructure Manager service is using the available docker image. A Docker image named grycap/im has been created to make easier the deployment of an IM service using the default configuration. Information about this image can be found here: https://registry.hub.docker.com/u/indigodatacloud/im/. More details at: https://github.com/indigo-dc/im#1-docker-image 
+* The IM provides a script to install the IM in one single step (using pip). You only need to execute the following command:
+.. code-block:: shell
+    $ wget qO https://raw.githubusercontent.com/indigo-dc/im/master/install.sh | bash
+And you can also use this ansible playbook to install it: https://github.com/indigo-dc/im/blob/master/ansible_install.yaml 
+
+
+List of Artifacts
+~~~~~~~~~~~~~~~~~
+
+* CentOS-7 RPMS
+    * `IM-1.8.6-1.el7.noarch.rpm <http://repo.indigo-datacloud.eu/repository/deep-hdc/production/2/centos7/x86_64/base/repoview/IM.html>`_
+
+* Ubuntu 16.04 DEBS
+    * `python-im_1.8.6-1_all.deb <http://repo.indigo-datacloud.eu/repository/deep-hdc/production/2/ubuntu/dists/xenial/main/binary-amd64/python-python-im_1.8.6-1_all.deb>`_
+
+* Ubuntu 18.04 DEBS
+    * `python-im_1.8.6-1_all.deb <http://repo.indigo-datacloud.eu/repository/deep-hdc/production/2/ubuntu/dists/bionic/main/binary-amd64/python-python-im_1.8.6-1_all.deb>`_
+
+* Docker Container:
+    * `indigodatacloud/im <https://hub.docker.com/r/indigodatacloud/im/tags/>`__:DEEP-2 (signed)
+    * `indigodatacloud/im <https://hub.docker.com/r/indigodatacloud/im/tags/>`__:1.8.6.1
