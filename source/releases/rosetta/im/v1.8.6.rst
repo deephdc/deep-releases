@@ -63,8 +63,10 @@ Installation methods
 
 * The recommended option to use the Infrastructure Manager service is using the available docker image. A Docker image named grycap/im has been created to make easier the deployment of an IM service using the default configuration. Information about this image can be found here: https://registry.hub.docker.com/u/indigodatacloud/im/. More details at: https://github.com/indigo-dc/im#1-docker-image 
 * The IM provides a script to install the IM in one single step (using pip). You only need to execute the following command:
-.. code-block:: shell
+
+.. code-block:: bash
     $ wget qO https://raw.githubusercontent.com/indigo-dc/im/master/install.sh | bash
+
 And you can also use this ansible playbook to install it: https://github.com/indigo-dc/im/blob/master/ansible_install.yaml 
 
 
