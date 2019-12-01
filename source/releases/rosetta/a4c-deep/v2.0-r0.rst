@@ -21,14 +21,13 @@ List of RfCs
 ~~~~~~~~~~~~
 Most important features and improvements:
 
-- Jira issues under Alien4cloud-deep component version "Alien4cloud 2.0-r0) 
-  - Tasks:
+- Jira issues under Alien4cloud-deep component version "Alien4cloud 2.0-r0" 
 
   .. raw:: html
-  
+
     <embed>
-    <h2> Task
-    </h2>
+    <h3> Task
+    </h3>
     <ul>
     <li>[<a href='https://jira.deep-hybrid-datacloud.eu/browse/DPD-434'>DPD-434</a>] -         [A4C] Test version 2.1.0 
     </li>
@@ -140,8 +139,8 @@ Most important features and improvements:
     </li>
     </ul>
         
-    <h2>        Bug
-    </h2>
+    <h3> Bug
+    </h3>
     <ul>
     <li>[<a href='https://jira.deep-hybrid-datacloud.eu/browse/DPD-521'>DPD-521</a>] -         [A4C] ToscaFilter not found by SpringContext
     </li>
@@ -159,98 +158,42 @@ Most important features and improvements:
     </li>
     </ul>
             
-    <h2>        Epic
-    </h2>
+    <h3> Epic
+    </h3>
     <ul>
     <li>[<a href='https://jira.deep-hybrid-datacloud.eu/browse/DPD-514'>DPD-514</a>] -         Prepare Alien4Cloud  &amp; related componets for review
     </li>
     </ul>
     </embed>
 
-    - [DPD-434] - [A4C] Test version 2.1.0
-    - [DPD-437] - [A4C] Move the development to the indigo-dc/alien4cloud fork and def branches
-    - [DPD-438] - [Plugin] Auto deployment plugin + instantiation
-    - [DPD-442] - [Plugin] User per deployment
-    - [DPD-443] - [Plugin] Get user info
-    - [DPD-444] - [A4C] Check if supports the standard tosca types
-    - [DPD-445] - [A4C] Integrate tosca custom types from master
-    - [DPD-485] - [A4C] Convert import
-    - [DPD-486] - [A4C] Null exception when importing template without metadata
-    - [DPD-487] - [A4C] TOSCA methods in Complex properties
-    - [DPD-488] - [A4C] Converts get_input when loading topology
-    - [DPD-491] - Allow parsing of TOSCA methods as YAML nodes
-    - [DPD-503] - [A4C] Error parsing imports TOSCA text editor
-    - [DPD-505] - [A4C] Add support for any output in the TOSCA text editor
-    - [DPD-506] - [A4C] Support for parsing ouput functions from a general struct
-    - [DPD-507] - [A4C] Inputs default values are not rendered correctly
-    - [DPD-508] - [A4C] Visual representation contains NaN
-    - [DPD-509] - [A4C] Serializer/Deserializer for Scalars
-    - [DPD-515] - [All] Fix security vulnerabilities [March 2019]
-    - [DPD-516] - [A4C] OpenStack Tosca standard error tosca.artifacts.Root
-    - [DPD-517] - [A4C] Do not require importing the normative types
-    - [DPD-518] - [A4C] Fails when not connected to the internet and can't verify file existance
-    - [DPD-519] - [A4C] Display all outputs
-    - [DPD-520] - [A4C] Add support for outputs results in InstanceInformation
-    - [DPD-523] - [A4C] get_attribute on a property
-    - [DPD-524] - [A4C] Function formatter in ToscaPropertySerializerUtils
-    - [DPD-525] - [A4C] Required property TOSCA function
-    - [DPD-526] - [A4C] No output properties or attributes message with existing outputs
-    - [DPD-527] - [A4C] interfaces configure implementation not rendered correctly text editor
-    - [DPD-528] - [A4C] Load node templates images from metadata
-    - [DPD-544] - [A4C] Don't render empty output description
-    - [DPD-552] - [Plugin] Security risks
-    - [DPD-553] - Update README deep
-    - [DPD-557] - [A4C] Specify TOSCA imports URL when uploading
-    - [DPD-583] - [A4C] Specify TOSCA imports URL when uploading
-    - [DPD-618] - [Plugin] Error instantiating plugin
-    - [DPD-619] - [Plugin] Expired token cannot delete deployed app
-    - [DPD-620] - [Plugin] Integration with Spring social OAuth2
-    - [DPD-621] - [Plugin] Cannot use Orchestrator REST API
-    - [DPD-623] - [Plugin] Support for get template
-    - [DPD-652] - [Plugin] Tosca definition must be first when sent to orchestrator
-    - [DPD-653] - Output creation TOSCA editor
-    - [DPD-654] - Output deletion TOSCA editor
-    - [DPD-655] - Output editing TOSCA editor
-    - [DPD-658] - Inputs creation, deletion, editing from the UI
-    - [DPD-659] - Artifact editing TOSCA editor allow virtual res
-    - [DPD-660] - SSL_ERROR_NO_CYPHER_OVERLAP
-    - [DPD-661] - Update langauge files for outputs/inputs/artifacts
-    - [DPD-663] - [ALL] Security CVE-2019-16335 CVE-2019-14540
-    - [DPD-664] - Unable to create relationships HostOn
-    - [DPD-685] - Alignment of items not present when Input/Output value is too long
-    - [DPD-702] - Tmp fix for tosca.datatypes.network.PortDef fix
-    - [DPD-703] - [settings-manager] Add support for new orchestrator rest caller
-    - [DPD-704] - [Plugin] Remove options related to client Oauth
+    
 
 
 - Github issues for DEEP-2 (everything in the DEEP-2 milestone): 
-  - Alien4cloud-deep repo (the plugin & Dockerfile) : https://github.com/indigo-dc/alien4cloud-deep/milestone/1?closed=1
-  - alien4cloud repo (the fork of the official A4C): https://github.com/indigo-dc/alien4cloud/milestone/1
+  - `Alien4Cloud-deep <https://github.com/indigo-dc/alien4cloud-deep>`__ (the plugin & Dockerfile) : https://github.com/indigo-dc/alien4cloud-deep/milestone/1?closed=1
+  - `Alien4Cloud repo <https://github.com/indigo-dc/alien4cloud>`__ (the fork of the official A4C): https://github.com/indigo-dc/alien4cloud/milestone/1
 
-
-Complete list of solved issues is available at:
-`Github <https://github.com/indigo-dc/alien4cloud-deep/issues?q=is%3Aissue+is%3Aclosed>`__
 
 Known Issues
 ~~~~~~~~~~~~
 
-Please see the list of issues on
-`Github <https://github.com/indigo-dc/alien4cloud-deep/issues?q=is%3Aopen+is%3Aissue>`__
+Please see the list of issues at `Github <https://github.com/indigo-dc/alien4cloud-deep/issues?q=is%3Aopen+is%3Aissue>`__
 
 Dependencies
 ~~~~~~~~~~~~
 
-The Alien4Cloud-DEEP plugin v. 1.1-r0 is known to work with the following:
+The Alien4Cloud-DEEP plugin v. 2.0-r0 is known to work with the following:
 
-- Alien4Cloud custom verision: 2.0.0-UPV-1.0.0
-- Plugin version: 1.0.4-SNAPSHOT
-- Alien4Cloud Settings Manager version: 1.0.1
-- TOSCA custom-types version: 1.0
+- Alien4Cloud custom version: 2.1.0-UPV-1.0.0-SNAPSHOT
+- Plugin version: 2.2.0-SNAPSHOT
+- Alien4Cloud Settings Manager version: 2.1.0
+- TOSCA custom-types version: 4.0.0
+- Spring OIDC social plugin version: 1.4
 
 
 List of Artifacts
 ~~~~~~~~~~~~~~~~~
 
 * Docker Container:
-    * `indigodatacloud/alien4cloud-deep <https://hub.docker.com/r/indigodatacloud/alien4cloud-deep/tags/>`__:DEEP-1 (signed)
-    * `indigodatacloud/alien4cloud-deep <https://hub.docker.com/r/indigodatacloud/alien4cloud-deep/tags/>`__:1.1-r0
+    * `indigodatacloud/alien4cloud-deep <https://hub.docker.com/r/indigodatacloud/alien4cloud-deep/tags/>`__:DEEP-2 (signed)
+    * `indigodatacloud/alien4cloud-deep <https://hub.docker.com/r/indigodatacloud/alien4cloud-deep/tags/>`__:2.2-r0
