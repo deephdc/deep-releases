@@ -138,7 +138,8 @@ Most important features and improvements:
     <li>[<a href='https://jira.deep-hybrid-datacloud.eu/browse/DPD-704'>DPD-704</a>] -         [Plugin] Remove options related to client Oauth
     </li>
     </ul>
-        
+    <br>
+
     <h4> Bug
     </h4>
     <ul>
@@ -157,6 +158,7 @@ Most important features and improvements:
     <li>[<a href='https://jira.deep-hybrid-datacloud.eu/browse/DPD-684'>DPD-684</a>] -         Add Input/Output listing no vertical scroll
     </li>
     </ul>
+    <br>
             
     <h4> Epic
     </h4>
@@ -164,6 +166,7 @@ Most important features and improvements:
     <li>[<a href='https://jira.deep-hybrid-datacloud.eu/browse/DPD-514'>DPD-514</a>] -         Prepare Alien4Cloud  &amp; related componets for review
     </li>
     </ul>
+    <br>
     </embed>
 
     
