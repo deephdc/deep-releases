@@ -26,8 +26,8 @@ Most important features and improvements:
   .. raw:: html
 
     <embed>
-    <h3> Task
-    </h3>
+    <h4> Task
+    </h4>
     <ul>
     <li>[<a href='https://jira.deep-hybrid-datacloud.eu/browse/DPD-434'>DPD-434</a>] -         [A4C] Test version 2.1.0 
     </li>
@@ -139,8 +139,8 @@ Most important features and improvements:
     </li>
     </ul>
         
-    <h3> Bug
-    </h3>
+    <h4> Bug
+    </h4>
     <ul>
     <li>[<a href='https://jira.deep-hybrid-datacloud.eu/browse/DPD-521'>DPD-521</a>] -         [A4C] ToscaFilter not found by SpringContext
     </li>
@@ -158,8 +158,8 @@ Most important features and improvements:
     </li>
     </ul>
             
-    <h3> Epic
-    </h3>
+    <h4> Epic
+    </h4>
     <ul>
     <li>[<a href='https://jira.deep-hybrid-datacloud.eu/browse/DPD-514'>DPD-514</a>] -         Prepare Alien4Cloud  &amp; related componets for review
     </li>
@@ -184,12 +184,16 @@ Dependencies
 
 The Alien4Cloud-DEEP plugin v. 2.0-r0 is known to work with the following:
 
-- Alien4Cloud custom version: 2.1.0-UPV-1.0.0-SNAPSHOT
-- Plugin version: 2.2.0-SNAPSHOT
-- Alien4Cloud Settings Manager version: 2.1.0
-- TOSCA custom-types version: 4.0.0
-- Spring OIDC social plugin version: 1.4
+* Alien4Cloud custom version: 2.1.0-UPV-1.0.0-SNAPSHOT
+* Plugin version: 2.2.0-SNAPSHOT
+* Alien4Cloud Settings Manager version: 2.1.0
+* TOSCA custom-types version: 4.0.0
+* Spring OIDC social plugin version: 1.4
 
+Installation methods 
+~~~~~~~~~~~~~~~~~~~~
+
+* automatic deployment by Docker
 
 List of Artifacts
 ~~~~~~~~~~~~~~~~~

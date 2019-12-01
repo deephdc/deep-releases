@@ -53,3 +53,5 @@ Support
 - GitHub issues: https://github.com/indigo-dc/alien4cloud-deep/issues
 
 - DEEP project’s internal support ticketing system: https://jira.deep-hybrid-datacloud.eu/
+
+- Mian developers: Andy S Alic (asalic@i3m.upv.es), Germán Moltó (gmolto@dsic.upv.es)
