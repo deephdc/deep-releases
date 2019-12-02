@@ -44,7 +44,8 @@ Documentation specific for the DEEP-HDC version is available at:
 Support
 -------
 
-- GitHub issues: https://github.com/EGI-Foundation/cloud-info-provider/issues?q=is%3Aissue+is%3Aclosed
+- GitHub issues: https://github.com/indigo-dc/cloud-info-provider-deep/issues
 - DEEP project’s internal support ticketing system: https://jira.deep-hybrid-datacloud.eu/
 - EGI GGUS Support Unit: https://wiki.egi.eu/wiki/GGUS:EGI_Cloud_Information_Discovery_FAQ
+- Main developer: Pablo Orviz (orviz@ifca.unican.es)
 
