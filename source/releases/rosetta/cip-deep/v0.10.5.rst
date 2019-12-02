@@ -71,7 +71,7 @@ Installation methods
 ~~~~~~~~~~~~~~~~~~~~
 
 * yum/apt/python-pip: https://github.com/indigo-dc/cloud-info-provider-deep
-* Ansible role: https://github.com/egi-qc/ansible-role-cloud-info-provider
+* Ansible role: https://github.com/indigo-dc/ansible-role-cloud-info-provider
 
 
 List of Artifacts
