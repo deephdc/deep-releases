@@ -19,7 +19,7 @@ Included components
    orchent
    paas-orchestrator
    paas-dashboard
-   spring-social-oidc
+   sso
    ttt
    udocker
    indigovr
