@@ -16,6 +16,7 @@ Included components
    cpr
    daas
    im
+   monitoring
    orchent
    paas-orchestrator
    paas-dashboard
@@ -39,6 +40,10 @@ Key technical highlights:
 
    -  toadd
 
+-  CloudProviderRanker
+
+   -  toadd
+  
 -  DEEPaaS API
 
    -  toadd
@@ -47,7 +52,15 @@ Key technical highlights:
 
    -  toadd
 
+-  INDIGO VirtualRouter
+
+   -  toadd
+
 -  PaaS Orchestrator
+
+   -  toadd
+
+-  PaaS Orchestrator Dashboard
 
    -  toadd
 
