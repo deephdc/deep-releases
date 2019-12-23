@@ -1,0 +1,55 @@
+v 0.7.0
+-------
+
+What’s new
+~~~~~~~~~~
+
+his is the first release that sees contributions from the DEEP-HDC project 
+it features a complete code re-engineered using Spring Boot framework, 
+modified ranking algorithm, many improvements and bug fixes described bellow
+
+List of RfCs
+~~~~~~~~~~~~
+
+* Added:
+    * Added new /info endpoint
+
+* Changed:
+   * Code re-engineered using Spring Boot framework
+   * Modified ranking algorithm:
+       * the ranking is no longer performed at the provider level; each single service is ranked, including also the potential dependencies among services (e.g. the rank for Marathon services takes into account also the metrics related to the Mesos cluster hosting the Marathon framework)
+       * the Drools rules have been updated accordingly
+    * Modified interface for /rank API (json request/response)
+    * Updated documentation
+
+* Fixed:
+    * Fixed issue with ranking services that have the same SLA priority, now they are ranked using the monitoring metrics, if available.
+    * Fixed code style issues
+    * Fixed rmp/deb creation
+
+* Removed:
+    * The following endpoints have been removed:
+    
+    .. code-block:: bash
+        /get-sla-parameters
+        /get-paas-parameters
+        /custom-sla-parameters
+        /custom-paas-parameters
+
+Installation methods
+~~~~~~~~~~~~~~~~~~~~
+
+* automatic deployment by using the Docker image
+    * See documentation at: `CloudProviderRancker Guide <https://indigo-dc.gitbook.io/cloud-provider-ranker/>`_
+
+
+List of Artifacts
+~~~~~~~~~~~~~~~~~
+
+* CentOS-7 RPM
+    * `CloudProviderRanker-0.7.0-1.noarch.rpm <http://repo.indigo-datacloud.eu/repository/deep-hdc/production/2/centos7/x86_64/base/repoview/CloudProviderRanker.html>`_
+
+* Docker image:
+    * `indigodatacloud/cloudproviderranker:v0.7.0 <https://hub.docker.com/layers/indigodatacloud/cloudproviderranker/v0.7.0/images/sha256-c69fbf361a2157879572db3a29f8b37b8c10f27319c197200916c0e2a7692c98>`
+    * `indigodatacloud/cloudproviderranker:DEEP-2 <https://hub.docker.com/layers/indigodatacloud/cloudproviderranker/v0.7.0/images/sha256-c69fbf361a2157879572db3a29f8b37b8c10f27319c197200916c0e2a7692c98>`
+
