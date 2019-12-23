@@ -30,5 +30,7 @@ Support
 * GitHub issues:
     * https://github.com/indigo-dc/orchestrator-dashboard/issues
 * DEEP project’s internal support ticketing system: http://jira.deep-hybrid-datacloud.eu/
+* Main Developer: Marica Antonacci (marica.antonacci@ba.infn.it)
+
 
 
