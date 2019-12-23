@@ -50,6 +50,6 @@ List of Artifacts
     * `CloudProviderRanker-0.7.0-1.noarch.rpm <http://repo.indigo-datacloud.eu/repository/deep-hdc/production/2/centos7/x86_64/base/repoview/CloudProviderRanker.html>`_
 
 * Docker image:
-    * `indigodatacloud/cloudproviderranker:v0.7.0 <https://hub.docker.com/layers/indigodatacloud/cloudproviderranker/v0.7.0/images/sha256-c69fbf361a2157879572db3a29f8b37b8c10f27319c197200916c0e2a7692c98>`
-    * `indigodatacloud/cloudproviderranker:DEEP-2 <https://hub.docker.com/layers/indigodatacloud/cloudproviderranker/v0.7.0/images/sha256-c69fbf361a2157879572db3a29f8b37b8c10f27319c197200916c0e2a7692c98>`
+    * `indigodatacloud/cloudproviderranker:v0.7.0 <https://hub.docker.com/layers/indigodatacloud/cloudproviderranker/v0.7.0/images/sha256-c69fbf361a2157879572db3a29f8b37b8c10f27319c197200916c0e2a7692c98>`_
+    * `indigodatacloud/cloudproviderranker:DEEP-2 <https://hub.docker.com/layers/indigodatacloud/cloudproviderranker/DEEP-2/images/sha256-c69fbf361a2157879572db3a29f8b37b8c10f27319c197200916c0e2a7692c98>`_
 

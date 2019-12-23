@@ -1,0 +1,30 @@
+v.3.0.0
+-------
+
+What’s new
+~~~~~~~~~~
+
+This is the first stable release.
+
+List of RfCs
+~~~~~~~~~~~~
+
+*  Important Functionalities:
+    * IAM authentication
+    * Display user's deployments
+    * Display deployment details, template and log
+    * Delete deployment
+    * Create new deployment
+
+
+Known Issues
+~~~~~~~~~~~~
+
+* None
+
+List of Artifacts
+~~~~~~~~~~~~~~~~~
+
+* Docker image:
+   * `orchestrator-dashboard:v1.0.0 <https://hub.docker.com/layers/indigodatacloud/orchestrator-dashboard/v1.0.0/images/sha256-656c70f63d5b9673043296d313f22cc0c03a2158a703e8cdb65072f0c2037f32>`_
+   * `orchestrator-dashboard:DEEP-2 (signed) <https://hub.docker.com/layers/indigodatacloud/orchestrator-dashboard/DEEP-2/images/sha256-656c70f63d5b9673043296d313f22cc0c03a2158a703e8cdb65072f0c2037f32>`_

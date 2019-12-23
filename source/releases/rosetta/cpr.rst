@@ -3,9 +3,6 @@ CloudProviderRancher
 
 .. contents:: Table of Contents
 
-**Orchent** is a command line application to manage deployments
-and their resources through the `PaaS Orchestrator <https://indigo-dc.gitbooks.io/indigo-paas-orchestrator/content/>`_ in a fast and easy way.
-
 The **Cloud Provider Ranker** is a standalone REST WEB Service which ranks cloud provider 
 services using rules implemented with the Drools framework. The **INDIGO PaaS Orchestrator**
  interacts with this service in order to obtain the rank of two or more cloud services 
