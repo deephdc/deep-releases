@@ -33,7 +33,7 @@ List of RfCs
     </li>
     <li>[<a href='https://github.com/indigo-dc/ansible-role-indigovr/pull/16'>Pull-16</a>] -  Add stat to check if certificate exists
     </li>
-    <li>[<a href='https://github.com/indigo-dc/ansible-role-indigovr/pull/16'>Pull-17</a>] - Re-use recipes for certificate signing in vrouter and standalone
+    <li>[<a href='https://github.com/indigo-dc/ansible-role-indigovr/pull/17'>Pull-17</a>] - Re-use recipes for certificate signing in vrouter and standalone
     </li>    
     </ul>
  
