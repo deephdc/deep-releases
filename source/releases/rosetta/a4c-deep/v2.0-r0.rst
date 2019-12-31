@@ -203,4 +203,4 @@ List of Artifacts
 
 * Docker Container:
     * `indigodatacloud/alien4cloud-deep <https://hub.docker.com/r/indigodatacloud/alien4cloud-deep/tags/>`__:DEEP-2 (signed)
-    * `indigodatacloud/alien4cloud-deep <https://hub.docker.com/r/indigodatacloud/alien4cloud-deep/tags/>`__:2.2-r0
+    * `indigodatacloud/alien4cloud-deep <https://hub.docker.com/r/indigodatacloud/alien4cloud-deep/tags/>`__:2.0-r0
