@@ -4,7 +4,7 @@ v 0.7.0
 What’s new
 ~~~~~~~~~~
 
-his is the first release that sees contributions from the DEEP-HDC project 
+This is the first release that sees contributions from the DEEP-HDC project 
 it features a complete code re-engineered using Spring Boot framework, 
 modified ranking algorithm, many improvements and bug fixes described bellow
 
