@@ -54,5 +54,5 @@ Installation methods
 List of Artifacts
 ~~~~~~~~~~~~~~~~~
 * Docker Container:
-    * `indigodatacloud/orchestrator <https://hub.docker.com/r/indigodatacloud/orchestrator/tags/>`__:DEEP-2 (signed)
-    * `indigodatacloud/orchestrator <https://hub.docker.com/r/indigodatacloud/orchestrator/tags/>`__:2.2.0-FINAL
+    * `indigodatacloud/orchestrator:DEEP-2 (signed) <https://hub.docker.com/layers/indigodatacloud/orchestrator/DEEP-2/images/sha256-70a1c871a5ab5b4bdf0440ba015acd0f125c0ed5b2cdb0677054d3ea3ae85084>`_
+    * `indigodatacloud/orchestrator:2.2.0-final <https://hub.docker.com/layers/indigodatacloud/orchestrator/2.2.0-final/images/sha256-70a1c871a5ab5b4bdf0440ba015acd0f125c0ed5b2cdb0677054d3ea3ae85084>`_

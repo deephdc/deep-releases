@@ -37,5 +37,5 @@ List of Artifacts
 
 * Python library, released in PyPI
 * Docker Container:
-    * `indigodatacloud/deepaas:DEEP-2 <https://hub.docker.com/r/indigodatacloud/deepaas/tags/>`__:DEEP-2 (signed)
+    * `indigodatacloud/deepaas:DEEP-2 <https://hub.docker.com/layers/indigodatacloud/deepaas/DEEP-2/images/sha256-8200ca4a01b801f989aa619b218813a3b493334cf874b1cd461b18ae8f86a75d>`_
     * `indigodatacloud/deepaas:1.0.0.rc2 <https://hub.docker.com/layers/indigodatacloud/deepaas/1.0.0.rc2/images/sha256-8200ca4a01b801f989aa619b218813a3b493334cf874b1cd461b18ae8f86a75d>`_
