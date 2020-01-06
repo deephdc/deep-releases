@@ -6,7 +6,7 @@ What’s new
 
 * Fixed some issues deploying hybrid clusters.
 * Enable to force the deletion of an infrastructure
-* Enable to boo the IM in "ReadOnly" modes.
+* Enable to boot the IM in "ReadOnly" modes.
 * Some minor bugfixes and enhancements.
 
 List of RfCs

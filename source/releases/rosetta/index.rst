@@ -17,12 +17,9 @@ Included components
    daas
    im
    monitoring
-   orchent
    paas-orchestrator
    paas-dashboard
    sso
-   ttt
-   udocker
    indigovr
 
 
@@ -34,68 +31,57 @@ Key technical highlights:
 
 -  Alien4Cloud-DEEP plugin
 
-   -  toadd
+   - Support for the OpenStack normative TOSCA types, for the IndigoDC TOSCA custom types, for DEEP-OC templates
+   - Outputs retrieval and display from the Indigo Orchestrator
+   - IAM authentication support
 
 -  cloud-info-provider-deep
 
-   -  toadd
+   - Support for multitenancy in CMDBv1, for new Mesos providers, for fetching GPU information from OpenStack and Mesos
 
 -  CloudProviderRanker
 
-   -  toadd
+   - new release featuring a complete code re-engineered using Spring Boot framework and modified ranking algorithm
   
 -  DEEPaaS API
 
-   -  toadd
+   - New V2 version of the API, major change that is not backwards compatible, supporting async requests, following Swagger UI 3.X Specifications, with new options allowing to specify the number of 
+workers that will be used for model operations
 
 -  Infrastructure Manager (IM)
 
-   -  toadd
+   - new version with multiple bug fixes and enhancements, improving deployment of hybrid clusters. 
+
 
 -  INDIGO VirtualRouter
 
-   -  toadd
+   - new verion with many bug fixes and improvements, supporting OpenStack
+
+- Monitoring Framework
+
+   - first release through the DEEP-HDC project, providing improved versions of Openstack and Mesos probes and new QCG probe
 
 -  PaaS Orchestrator
 
-   -  toadd
+   -  new version that add support for compute GPU, flavors and for vRouter deployment
 
 -  PaaS Orchestrator Dashboard
 
-   -  toadd
+   -  first stable release with INDIGO-IAM authentication, allowing easier management of infrastructures deloyments
 
--  uDocker
+-  Spring Social OIDC
 
-   -  toadd
+   -  first release in DEEP-HDC allowing for the integration of the orchestrator functionality into Spring projects such as Alien4Cloud through Spring Social
 
--  Visual application topology composition and deployment
-
-   -  toadd
-
--  DEEP as a Service
-
-   -  toadd
-
--  `DEEP Open Catalog <http://marketplace.deep-hybrid-datacloud.eu/>`__
-
-   -  Ready-to-use machine learning and deep learning applications,
-      including:
-
-      -  toadd
 
 Release Notes
 -------------
 
-The DEEP-1/Genesis release consists in 9 Products and a number of
+The DEEP-2/Rosetta release consists in 10 Products and a number of
 technical guides:
 
--  X OS packages, for CentOS 7, Ubuntu 16.04, Ubuntu 18.04
-
-   -  X RPMS & SRPMS
-   -  X binary & source DEBS
-   -  X tarballs
-
--  X Docker containers
+-  22 OS packages, for CentOS 7, Ubuntu 16.04, Ubuntu 18.04
+-  6 Docker containers
 
 
 You can find in the later sections the full list of products, with
@@ -107,30 +93,30 @@ Installation Notes
 
 All DEEP - HybridDataCloud products are distributed from standard
 Operating Systems (OS) repositories and DockerHub registry of the
-`indigodatacloud <https://cloud.docker.com/u/indigodatacloud/repository/list>`_ 
+`indigodatacloud <https://hub.docker.com/orgs/indigodatacloud/repositories>`_ and `deephdcgo <https://hub.docker.com/orgs/deephdc/repositories>`_
 organization.
 
 The packages repositories have the following structure:
 
 * DEEP-HDC **production** (stable):
 
-  * `deep-hdc/production/{1,2}/centos7/x86_64/{base|updates} <http://repo.indigo-datacloud.eu/repository/deep-hdc/production/1/centos7/x86_64/base/repoview/>`_
-  * `deep-hdc/production/{1,2}/ubuntu/dists/xenial/main/{binary-amd64,source} <http://repo.indigo-datacloud.eu/repository/deep-hdc/production/1/ubuntu/dists/xenial/main/>`_
+  * `deep-hdc/production/2/centos7/x86_64/{base|updates} <http://repo.indigo-datacloud.eu/repository/deep-hdc/production/2/centos7/x86_64/base/repoview/>`_
+  * `deep-hdc/production/2/ubuntu/dists/xenial/main/{binary-amd64,source} <http://repo.indigo-datacloud.eu/repository/deep-hdc/production/2/ubuntu/dists/>`_
 
     * containing signed, well tested software components
 
   * third-party:
 
-    * `deep-hdc/production/{1,2}/centos7/x86_64/third-party <http://repo.indigo-datacloud.eu/repository/deep-hdc/production/1/centos7/x86_64/third-party/repoview>`_
-    * `deep-hdc/production/{1,2}/ubuntu/dists/xenial/third-party{binary-amd64,source} <http://repo.indigo-datacloud.eu/repository/deep-hdc/production/1/ubuntu/dists/xenial/third-party>`_
+    * `deep-hdc/production/2/centos7/x86_64/third-party <http://repo.indigo-datacloud.eu/repository/deep-hdc/production/1/centos7/x86_64/third-party/repoview>`_
+    * `deep-hdc/production/2/ubuntu/dists/{xenial,bionic}/third-party{binary-amd64,source} <http://repo.indigo-datacloud.eu/repository/deep-hdc/production/2/ubuntu/dists/>`_
 
       * containing packages that are not part of DEEP, or not part of the base OS or EPEL, but used as dependencies by other DEEP components
 
-* DEEP-HDC **testing**: `deep/testing/{1,2}/{centos7,ubuntu}/ <http://repo.indigo-datacloud.eu/repository/deep-hdc/testing/>`_
+* DEEP-HDC **testing**: `deep-hdc/testing/2/{centos7,ubuntu}/ <http://repo.indigo-datacloud.eu/repository/deep-hdc/testing/2>`_
 
   * containing packages that will become part of the next stable distribution; in the certification and validation phase.
 
-* DEEP-HDC **preview**: `deep/preview/{1,2}/{centos7,ubuntu}/ <http://repo.indigo-datacloud.eu/repository/deep-hdc/preview/>`_
+* DEEP-HDC **preview**: `deep/preview/2/{centos7,ubuntu}/ <http://repo.indigo-datacloud.eu/repository/deep-hdc/preview/2>`_
 
   * containing signed packages that will become part of the next stable update, available for technical-previews
 
@@ -159,19 +145,26 @@ YUM & APT configuration files are available at:
 
 * CentOS7 - https://repo.indigo-datacloud.eu/deep-hdc/repos/deep-2.repo
 * Ubuntu 16.04 - https://repo.indigo-datacloud.eu/deep-hdc/repos/deep-2-ubuntu16_04.list
+* Ubuntu 18.04 - https://repo.indigo-datacloud.eu/deep-hdc/repos/deep-2-ubuntu18_04.list
 
 or use the deephdc-release package to install DEEP-HDC repositories:
 
 * CentOS7:
 .. code-block:: bash
 
-    # wget https://repo.indigo-datacloud.eu/repository/deep-hdc/production/2/centos7/x86_64/base/deephdc-release-1.0.0-1.el7.noarch.rpm
+    # wget https://repo.indigo-datacloud.eu/repository/deep-hdc/production/2/centos7/x86_64/base/deephdc-release-2.0.0-1.el7.noarch.rpm
     # yum localinstall -y deephdc-release-2.0.0-1.el7.noarch.rpm
 
 * Ubuntu 16.04:
 .. code-block:: bash
 
-    # wget https://repo.indigo-datacloud.eu/repository/deep-hdc/2/ubuntu/dists/xenial/main/binary-amd64/deephdc-release_1.0.0-1_amd64.deb
+    # wget https://repo.indigo-datacloud.eu/repository/deep-hdc/2/ubuntu/dists/xenial/main/binary-amd64/deephdc-release_2.0.0-1_amd64.deb
+    # dpkg -i deephdc-release_2.0.0-1_amd64.deb
+
+* Ubuntu 18.04:
+.. code-block:: bash
+
+    # wget https://repo.indigo-datacloud.eu/repository/deep-hdc/2/ubuntu/dists/bionic/main/binary-amd64/deephdc-release_2.0.0-1_amd64.deb
     # dpkg -i deephdc-release_2.0.0-1_amd64.deb
 
 These packages will install required dependencies, the INDIGO - DataCloud
@@ -188,11 +181,11 @@ Enable the DEEP-HDC Containers repositories
 On the `DockerHub Registry <https://hub.docker.com/>`__, DEEP -
 HybridDataCloud uses the INDIGO - DataCloud and DEEP-HDC Organizations:
 
-* `indigodatacloud <https://hub.docker.com/u/indigodatacloud/dashboard/>`__, for Core Services
-* `deephdc <https://hub.docker.com/u/deephdc/dashboard/>`__, for DEEP-OC modules
+* `indigodatacloud <https://hub.docker.com/orgs/indigodatacloud/repositories>`__, for Core Services
+* `deephdc <https://hub.docker.com/orgs/deephdc/repositories>`__, for DEEP-OC modules
 
 Containers present in those repositories and released in DEEP-1 major release are
-tagged with “DEEP-1” tag and signed, leveraging the `Docker’s trust
+tagged with “DEEP-2” tag and signed, leveraging the `Docker’s trust
 features <https://docs.docker.com/engine/security/>`_ so that users can pull trusted images.
 
 Currently, content trust is disabled by default. You must enable it by setting

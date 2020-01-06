@@ -5,7 +5,7 @@ What’s new
 ~~~~~~~~~~
 
 This is the first release of Monitoring framework through the DEEP-HDC project, providing new 
-verion of Openstack, Mesos and QCG probes:
+version of Openstack, Mesos and QCG probes:
 
 * `Openstack zabbix probe v. 1.4 <https://jira.deep-hybrid-datacloud.eu/projects/DPD/versions/10801>`_
 * `Mesos probe v. 1.4 <https://jira.deep-hybrid-datacloud.eu/projects/DPD/versions/10802>`_
