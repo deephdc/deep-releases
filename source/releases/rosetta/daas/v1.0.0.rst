@@ -19,7 +19,7 @@ workers that will be used for model operations (train, predict).
 List of RfCs
 ~~~~~~~~~~~~
 
-* TOADD
+* Complete list avaiable at `DEEPaaS Release Notes <https://docs.deep-hybrid-datacloud.eu/projects/deepaas/en/stable/releasenotes/index.html>`_
 
 Known Issues
 ~~~~~~~~~~~~
@@ -29,7 +29,7 @@ Known Issues
 Installation methods
 ~~~~~~~~~~~~~~~~~~~~
 
-* automatic deployment by pip - `DEEPaaS guide <https://docs.deep-hybrid-datacloud.eu/projects/deepaas/en/stable/install/upgrade.html>`_
+* automatic deployment by pip - `DEEPaaS guide <https://docs.deep-hybrid-datacloud.eu/projects/deepaas/en/stable/installation.html>`_
  
 
 List of Artifacts
