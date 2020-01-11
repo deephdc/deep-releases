@@ -1,4 +1,4 @@
-CloudProviderRancher
+CloudProviderRanker
 =======
 
 .. contents:: Table of Contents
