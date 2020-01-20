@@ -29,47 +29,46 @@ Highlights
 
 Key technical highlights:
 
--  Alien4Cloud-DEEP plugin
+ - Alien4Cloud-DEEP plugin
 
    - Support for the OpenStack normative TOSCA types, for the IndigoDC TOSCA custom types, for DEEP-OC templates
    - Outputs retrieval and display from the Indigo Orchestrator
    - IAM authentication support
 
-
--  DEEP-Hybrid-DataCloud Cloud Information Provider
+ - DEEP-Hybrid-DataCloud Cloud Information Provider
 
    - Support for multitenancy in CMDBv1, for new Mesos providers, for fetching GPU information from OpenStack and Mesos
 
--  CloudProviderRanker
+ - CloudProviderRanker
 
    - new release featuring a complete code re-engineered using Spring Boot framework and modified ranking algorithm
   
--  DEEPaaS API
+ - DEEPaaS API
 
    - New V2 version of the API, major change that is not backwards compatible, supporting async requests, following Swagger UI 3.X Specifications, with new options allowing to specify the number of workers that will be used for model operations
 
--  Infrastructure Manager (IM)
+ -  Infrastructure Manager (IM)
 
    - new version with multiple bug fixes and enhancements, improving deployment of hybrid clusters. 
 
 
--  INDIGO VirtualRouter
+ -  INDIGO VirtualRouter
 
    - new verion with many bug fixes and improvements, supporting OpenStack
 
-- Monitoring Framework
+ - Monitoring Framework
 
    - first release through the DEEP-HDC project, providing improved versions of Openstack and Mesos probes and new QCG probe
 
--  PaaS Orchestrator
+ -  PaaS Orchestrator
 
    -  new version that add support for compute GPU, flavors and for vRouter deployment
 
--  PaaS Orchestrator Dashboard
+ -  PaaS Orchestrator Dashboard
 
    -  first stable release with INDIGO-IAM authentication, allowing easier management of infrastructures deloyments
 
--  Spring Social OIDC
+ -  Spring Social OIDC
 
    -  first release in DEEP-HDC allowing for the integration of the orchestrator functionality into Spring projects such as Alien4Cloud through Spring Social
 
