@@ -45,8 +45,7 @@ Key technical highlights:
   
 -  DEEPaaS API
 
-   - New V2 version of the API, major change that is not backwards compatible, supporting async requests, following Swagger UI 3.X Specifications, 
-   with new options allowing to specify the number of workers that will be used for model operations
+   - New V2 version of the API, major change that is not backwards compatible, supporting async requests, following Swagger UI 3.X Specifications, with new options allowing to specify the number of workers that will be used for model operations
 
 -  Infrastructure Manager (IM)
 
