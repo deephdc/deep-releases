@@ -30,7 +30,6 @@ Highlights
 Key technical highlights:
 
 -  Alien4Cloud-DEEP plugin
-
    - Support for the OpenStack normative TOSCA types, for the IndigoDC TOSCA custom types, for DEEP-OC templates
    - Outputs retrieval and display from the Indigo Orchestrator
    - IAM authentication support
