@@ -47,12 +47,11 @@ Key technical highlights:
 
    - New V2 version of the API, major change that is not backwards compatible, supporting async requests, following Swagger UI 3.X Specifications, with new options allowing to specify the number of workers that will be used for model operations
 
- -  Infrastructure Manager (IM)
+ - Infrastructure Manager (IM)
 
    - new version with multiple bug fixes and enhancements, improving deployment of hybrid clusters. 
 
-
- -  INDIGO VirtualRouter
+ - INDIGO VirtualRouter
 
    - new verion with many bug fixes and improvements, supporting OpenStack
 
@@ -60,17 +59,17 @@ Key technical highlights:
 
    - first release through the DEEP-HDC project, providing improved versions of Openstack and Mesos probes and new QCG probe
 
- -  PaaS Orchestrator
+ - PaaS Orchestrator
 
-   -  new version that add support for compute GPU, flavors and for vRouter deployment
+   - new version that add support for compute GPU, flavors and for vRouter deployment
 
- -  PaaS Orchestrator Dashboard
+ - PaaS Orchestrator Dashboard
 
-   -  first stable release with INDIGO-IAM authentication, allowing easier management of infrastructures deloyments
+   - first stable release with INDIGO-IAM authentication, allowing easier management of infrastructures deloyments
 
- -  Spring Social OIDC
+ - Spring Social OIDC
 
-   -  first release in DEEP-HDC allowing for the integration of the orchestrator functionality into Spring projects such as Alien4Cloud through Spring Social
+   - first release in DEEP-HDC allowing for the integration of the orchestrator functionality into Spring projects such as Alien4Cloud through Spring Social
 
 
 Release Notes
