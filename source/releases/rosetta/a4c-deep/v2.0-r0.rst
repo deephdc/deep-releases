@@ -171,7 +171,6 @@ Most important features and improvements:
 
     
 
-
  Github issues for DEEP-2 (everything in the DEEP-2 milestone): 
 
  - `Alien4Cloud-deep <https://github.com/indigo-dc/alien4cloud-deep>`_ (the plugin & Dockerfile) : https://github.com/indigo-dc/alien4cloud-deep/milestone/1?closed=1
