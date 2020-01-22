@@ -21,6 +21,8 @@ Included components
    paas-dashboard
    sso
    indigovr
+   udocker
+   ttt
 
 
 Highlights
@@ -71,7 +73,15 @@ Key technical highlights:
 
    - first release in DEEP-HDC allowing for the integration of the orchestrator functionality into Spring projects such as Alien4Cloud through Spring Social
 
+ - INDIGO-DC Virtual Router Installer
 
+   - new
+
+ - udocker
+
+   - news
+
+   
 Release Notes
 -------------
 
