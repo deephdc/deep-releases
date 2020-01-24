@@ -76,14 +76,18 @@ List of RfCs
         <ul><li> "s1": OpenStack</ul>
     </ul>
     meaning that the provider IFCA has one Mesos cluster and two OpenStack instances running while the provider INFN has just one OpenStack installation
-    <br>
+    
+
+
     In this scenario the OpenStack probe will create two groups (if they don't exist) named <b>IFCA</b> and <b>INFN</b> and it will 
     register metrics under the host name <b>s2</b> and <b>s3</b> for group <b>IFCA</b> and <b>s1</b>for group <b>INFN</b>, meaning 
     that metrics under the host <b>s2</b> and group <b>IFCA</b> will be the ones related to 
     the <b>OpenStack1</b> instance running at <b>IFCA</b> provider. The same applies to 
     the <b>OpenStack2</b> instance in <b>IFCA</b> and the only OpenStack instance at <b>INFN</b> (in 
     this case, the group would be <b>INFN</b> instead of <b>IFCA</b>).
-    <br>
+    
+
+    
     The Mesos probe will do the same but given that there's only one Mesos cluster in IFCA it
     will create (if it doesn't exist) a group <b>IFCA</b> and a host with name <b>s1</b> to 
     send its metrics.
