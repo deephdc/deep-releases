@@ -9,7 +9,7 @@ This version provides a number of new features, improvements and bug fixes
 List of RfCs
 ~~~~~~~~~~~~
 
- - TOSCA types v. 4.0.0
+ - TOSCA types v. 4.0.0, tested with Ansible 2.6.20
 
     - Added new type for QCG job 
     - Added new types and artifacts for vRouter components 

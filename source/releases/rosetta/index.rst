@@ -47,7 +47,7 @@ Key technical highlights:
   
  - DEEPaaS API
 
-   - New V2 version of the API, major change that is not backwards compatible, supporting async requests, following Swagger UI 3.X Specifications, with new options allowing to specify the number of workers that will be used for model operations
+   - New V2 version of the API, major change that is not backward compatible, supporting async requests, following Swagger UI 3.X Specifications, with new options allowing to specify the number of workers that will be used for model operations
 
  - Infrastructure Manager (IM)
 
@@ -75,11 +75,12 @@ Key technical highlights:
 
  - TOSCA types and templates
 
-   - addded ...
+   - new types for QCG jobs and DEEPaaS, support for Marathon secrets and hybrid deployments
 
  - udocker
 
-   - many improvements,   new features and bug fixes
+   - many new features, improvements and bug fixes, like the improved support of singularity, 
+   added support for sha512 hashes, safer parsing of config files and removal of directories, improved installation
 
    
 Release Notes
