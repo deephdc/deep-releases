@@ -53,7 +53,7 @@ Key technical highlights:
 
    - new version with multiple bug fixes and enhancements, improving deployment of hybrid clusters. 
 
- - INDIGO VirtualRouter
+ - INDIGO Virtual Router Installer
 
    - new verion with many bug fixes and improvements, supporting OpenStack
 
@@ -73,13 +73,9 @@ Key technical highlights:
 
    - first release in DEEP-HDC allowing for the integration of the orchestrator functionality into Spring projects such as Alien4Cloud through Spring Social
 
- - INDIGO-DC Virtual Router Installer
-
-   - new
-
  - udocker
 
-   - news
+   - many improvements, new features and bug fixes
 
    
 Release Notes

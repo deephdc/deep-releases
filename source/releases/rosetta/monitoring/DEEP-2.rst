@@ -7,14 +7,15 @@ What’s new
 This is the first release of Monitoring framework through the DEEP-HDC project, providing new 
 version of Openstack, Mesos and QCG probes:
 
-* `Openstack zabbix probe v. 1.4 <https://jira.deep-hybrid-datacloud.eu/projects/DPD/versions/10801>`_
-* `Mesos probe v. 1.4 <https://jira.deep-hybrid-datacloud.eu/projects/DPD/versions/10802>`_
-* `QCG probe v. 1.4 <https://jira.deep-hybrid-datacloud.eu/projects/DPD/versions/10803>`_
+ * `Openstack zabbix probe v. 1.4 <https://jira.deep-hybrid-datacloud.eu/projects/DPD/versions/10801>`_
+ * `Mesos probe v. 1.4 <https://jira.deep-hybrid-datacloud.eu/projects/DPD/versions/10802>`_
+ * `QCG probe v. 1.4 <https://jira.deep-hybrid-datacloud.eu/projects/DPD/versions/10803>`_
 
 Some of the main new common new features are:
-* Integration with the Orchestrator services and providers convention
-* Integration with DEEP IAM
-* Integration with DEEP CMDB
+
+ * Integration with the Orchestrator services and providers convention
+ * Integration with DEEP IAM
+ * Integration with DEEP CMDB
 
 List of RfCs
 ~~~~~~~~~~~~
@@ -51,43 +52,46 @@ List of RfCs
     </li>
     </ul>  
 
+    <h3> Mesos probe
+    </h3>
+    <ul>
+    <li>Updated to version 1.4 
+    <li>CMDB integration now is mandatory, so ```cmdb.location``` property now is mandatory in the configuration
+    <li>Updated to provide new convention of groups and hosts (read below)
+    </ul>
+    <ul>
+    <li> Groups and hosts semantics - This release changes the semantics of groups and hosts when sending metrics to the Zabbix server:
+        <ul>
+        <li> Since CMDB integration is now mandatory for both probes, provider name will be used as group name when sending metrics to the server
+        <li> Host name will be the service ID
+        </ul>
+    </ul>
+    So for example, if we have two providers with the following services:
+    .. code-block:: bash
+    - IFCA
+        - "s1": Mesos
+        - "s2": OpenStack1
+        - "s3": OpenStack2
+    - INFN
+        - "s1": OpenStack
+
+    meaning that the provider IFCA has one Mesos cluster and two OpenStack instances running while the provider INFN has just one OpenStack installation
+
+    In this scenario the OpenStack probe will create two groups (if they don't exist) named ```IFCA``` and ```INFN``` and it will register metrics under the host 
+    name ```s2``` and ```s3``` for group ```IFCA``` and ```s1``` for group ```INFN```, meaning 
+    that metrics under the host ```s2``` and group ```IFCA``` will be the ones related to 
+    the ```OpenStack1``` instance running at ```IFCA``` provider. The same applies to 
+    the ```OpenStack2``` instance in ```IFCA``` and the only OpenStack instance at ```INFN``` (in 
+    this case, the group would be ```INFN``` instead of ```IFCA```).
+
+    The Mesos probe will do the same but given that there's only one Mesos cluster in IFCA it will 
+    create (if it doesn't exist) a group ```IFCA``` and a host with name ```s1``` to send its metrics.
+
+
+
 
     </embed>
 
-## Mesos probe
-* Updated to version 1.4
-* CMDB integration now is mandatory, so ```cmdb.location``` property now is mandatory in the configuration
-* Updated to provide new convention of groups and hosts (read below)
-
-## Groups and hosts semantics
-This release changes the semantics of groups and hosts when sending metrics to the Zabbix server:
-
-* Since CMDB integration is now mandatory for both probes, provider name will be used as group 
-name when sending metrics to the server
-* Host name will be the service ID
-
-So for example, if we have two providers with the following services:
-
-- IFCA
-  - "s1": Mesos
-  - "s2": OpenStack1
-  - "s3": OpenStack2
-- INFN
-  - "s1": OpenStack
-
-In this case, this means that the provider IFCA has one Mesos cluster and two OpenStack instances
- running while the provider INFN has just one OpenStack installation.
-
- In this scenario the OpenStack probe will create two groups (if they don't exist) 
- named ```IFCA``` and ```INFN``` and it will register metrics under the host 
- name ```s2``` and ```s3``` for group ```IFCA``` and ```s1``` for group ```INFN```, meaning 
- that metrics under the host ```s2``` and group ```IFCA``` will be the ones related to 
- the ```OpenStack1``` instance running at ```IFCA``` provider. The same applies to 
- the ```OpenStack2``` instance in ```IFCA``` and the only OpenStack instance at ```INFN``` (in 
- this case, the group would be ```INFN``` instead of ```IFCA```).
-
-The Mesos probe will do the same but given that there's only one Mesos cluster in IFCA it will 
-create (if it doesn't exist) a group ```IFCA``` and a host with name ```s1``` to send its metrics.
 
 Installation methods
 ~~~~~~~~~~~~~~~~~~~~
@@ -99,7 +103,6 @@ Installation methods
 
 List of Artifacts
 ~~~~~~~~~~~~~~~~~
-
 
 * CentOS-7 RPMS
     * Openstack probe `openstack-zabbix-probe-1.4.2-2.noarch.rpm <http://repo.indigo-datacloud.eu/repository/deep-hdc/production/2/centos7/x86_64/base/repoview/openstack-zabbix-probe.html>`_
