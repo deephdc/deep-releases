@@ -21,7 +21,7 @@ List of RfCs
     - Improved support for hybrid deployments
     - Improved policy definitions
 
-- TOSCA templates ypes v. 4.0.0
+- TOSCA templates v. 4.0.0
 
 * None
 
