@@ -79,7 +79,7 @@ Key technical highlights:
 
  - udocker
 
-   - many improvements, new features and bug fixes
+   - many improvements,   new features and bug fixes
 
    
 Release Notes
