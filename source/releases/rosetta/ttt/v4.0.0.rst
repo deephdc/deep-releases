@@ -4,15 +4,24 @@ v. 4.0.0
 What’s new
 ~~~~~~~~~~
 
-This version provides a number of new features,improvements and bug fixes
+This version provides a number of new features, improvements and bug fixes
 
 List of RfCs
 ~~~~~~~~~~~~
 
- - to add
+ - TOSCA types v. 4.0.0
 
-Known Issues
-~~~~~~~~~~~~
+    - Added new type for QCG job 
+    - Added new types and artifacts for vRouter components 
+    - Added new type for DEEPaaS 
+    - Added support for Marathon secrets 
+    - Added icons for each type 
+    - Added metadata and description in custom_types.yaml
+    - Added type for BlockStorage and for AttachesTo relationship
+    - Improved support for hybrid deployments
+    - Improved policy definitions
+
+- TOSCA templates ypes v. 4.0.0
 
 * None
 
