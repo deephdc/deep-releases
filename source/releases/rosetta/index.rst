@@ -37,7 +37,6 @@ Key technical highlights:
   * IAM authentication support
 
 * DEEP-Hybrid-DataCloud Cloud Information Provider
-
   * Support for multitenancy in CMDBv1, for new Mesos providers, for fetching GPU information from OpenStack and Mesos
 
 * CloudProviderRanker
