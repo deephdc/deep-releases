@@ -73,6 +73,10 @@ Key technical highlights:
 
    - first release in DEEP-HDC allowing for the integration of the orchestrator functionality into Spring projects such as Alien4Cloud through Spring Social
 
+ - TOSCA types and templates
+
+   - addded ...
+
  - udocker
 
    - many improvements, new features and bug fixes
@@ -84,7 +88,7 @@ Release Notes
 The DEEP-2/Rosetta release consists in 10 Products and a number of
 technical guides:
 
--  22 OS packages, for CentOS 7, Ubuntu 16.04, Ubuntu 18.04
+-  22 packages and tarballs, for CentOS 7, Ubuntu 16.04, Ubuntu 18.04
 -  6 Docker containers
 
 

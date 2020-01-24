@@ -1,0 +1,24 @@
+v. 4.0.0
+-------
+
+What’s new
+~~~~~~~~~~
+
+This version provides a number of new features,improvements and bug fixes
+
+List of RfCs
+~~~~~~~~~~~~
+
+ - to add
+
+Known Issues
+~~~~~~~~~~~~
+
+* None
+
+List of Artifacts
+~~~~~~~~~~~~~~~~~
+
+* Tarballs:
+   * `tosca-types-4.0.0.tar.gz <https://repo.indigo-datacloud.eu/repository/deep-hdc/production/2/centos7/x86_64/tgz/tosca-types-4.0.0.tar.gz>`_
+   * `tosca-templates-4.0.0.tar.gz <httpis://repo.indigo-datacloud.eu/repository/deep-hdc/production/2/centos7/x86_64/tgz/tosca-templates-4.0.0.tar.gz>`_
