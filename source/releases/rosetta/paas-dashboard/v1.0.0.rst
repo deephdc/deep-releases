@@ -27,7 +27,7 @@ Installation methods
 ~~~~~~~~~~~~~~~~~~~~
 
 * automatic deployment by using the Docker image
-    * See documentation at: `PaaS Orchestrator Dashboard README <https://github.com/indigo-dc/orchestrator/blob/v2.2.0-FINAL/README.md>`_
+   * See documentation at: `PaaS Orchestrator Dashboard README <https://github.com/indigo-dc/orchestrator/blob/v2.2.0-FINAL/README.md>`_
 
 List of Artifacts
 ~~~~~~~~~~~~~~~~~
