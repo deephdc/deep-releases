@@ -56,7 +56,7 @@ List of RfCs
     </h3>
     <ul>
     <li>Updated to version 1.4 
-    <li>CMDB integration now is mandatory, so ```cmdb.location``` property now is mandatory in the configuration
+    <li>CMDB integration now is mandatory, so <b>cmdb.location</b> property now is mandatory in the configuration
     <li>Updated to provide new convention of groups and hosts (read below)
     </ul>
     <ul>
