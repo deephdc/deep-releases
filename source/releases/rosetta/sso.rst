@@ -19,8 +19,7 @@ Documentation
 -------------
 
 Detailed documentation can be found at:
-
-* `GitHub README <https://github.com/indigo-dc/spring-social-oidc/blob/master/README.md>`_
+ * `GitHub README <https://github.com/indigo-dc/spring-social-oidc/blob/master/README.md>`_
 
 
 Support
