@@ -49,7 +49,7 @@ The PaaS Orchestrator v.2.1.2-FINAL has the following services dependencies
 Installation methods
 ~~~~~~~~~~~~~~~~~~~~
 
-* Automatic deployment -available through Ansible roles
+* Automatic deployment is available through Ansible roles
 
   * Project URL: https://github.com/indigo-dc/indigopaas-deploy
 
