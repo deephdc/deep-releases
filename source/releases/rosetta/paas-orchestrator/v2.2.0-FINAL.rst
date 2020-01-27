@@ -10,6 +10,7 @@ List of RfCs
 ~~~~~~~~~~~~
 
 * New Features
+
   * Added support for Compute GPU and flavors
   * Added Vault integration for supporting Marathon secrets
   * Added initial QCG support
@@ -18,6 +19,7 @@ List of RfCs
   * Added support for vRouter deployment
 
 * Improvements
+
   * Support new A4C Tosca Parser library (v2.1.0-DEEP-1.0.0)
   * Support new CPR interface
   * Support new CMDB Schema
@@ -25,6 +27,7 @@ List of RfCs
   * Improved hybrid deployment support for basic scenario
 
 * Bug Fixes
+
   * Fix log errors in case of cloud services retry
   * Fix bug in the selection of the cloud service
 
@@ -54,5 +57,6 @@ Installation methods
 List of Artifacts
 ~~~~~~~~~~~~~~~~~
 * Docker Container:
-    * `indigodatacloud/orchestrator:DEEP-2 (signed) <https://hub.docker.com/layers/indigodatacloud/orchestrator/DEEP-2/images/sha256-70a1c871a5ab5b4bdf0440ba015acd0f125c0ed5b2cdb0677054d3ea3ae85084>`_
-    * `indigodatacloud/orchestrator:2.2.0-final <https://hub.docker.com/layers/indigodatacloud/orchestrator/2.2.0-final/images/sha256-70a1c871a5ab5b4bdf0440ba015acd0f125c0ed5b2cdb0677054d3ea3ae85084>`_
+
+  * `indigodatacloud/orchestrator:DEEP-2 (signed) <https://hub.docker.com/layers/indigodatacloud/orchestrator/DEEP-2/images/sha256-70a1c871a5ab5b4bdf0440ba015acd0f125c0ed5b2cdb0677054d3ea3ae85084>`_
+  * `indigodatacloud/orchestrator:2.2.0-final <https://hub.docker.com/layers/indigodatacloud/orchestrator/2.2.0-final/images/sha256-70a1c871a5ab5b4bdf0440ba015acd0f125c0ed5b2cdb0677054d3ea3ae85084>`_
