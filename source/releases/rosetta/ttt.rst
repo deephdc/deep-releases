@@ -30,7 +30,7 @@ Documentation
 Detailed documentation can be found at:
 
 * `TOSCA types README <https://github.com/indigo-dc/tosca-types/blob/v4.0.0/README.md>`_
-* `TOSCA templates README <https://github.com/indigo-dc/tosca-templates/tree/v4.0.0>`_
+* `TOSCA templates README <https://github.com/indigo-dc/tosca-templates/releases/tag/v4.0.0>`_
 * `Brief guide to TOSCA <https://github.com/indigo-dc/tosca-templates/blob/v4.0.0/doc/tosca.md>`_
 * `How to deploy a TOSCA Template <https://github.com/indigo-dc/tosca-templates/blob/v4.0.0/doc/tosca-deploy.md>`_
 

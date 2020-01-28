@@ -21,7 +21,17 @@ List of RfCs
     - Improved support for hybrid deployments
     - Improved policy definitions
 
-- TOSCA templates v. 4.0.0
+ - TOSCA templates v. 4.0.0
+   
+    - Updated templates to ensure the compliance with Simple Profile in YAML 1.0
+       - **these changes are mandatory for working with Orchestrator version >= 2.2.0**
+    - Updated templates for DEEP use-cases
+    - Fixing typos (e.g. priviliged --> privileged)
+    - Added template for Slurm Elastic Cluster 
+    - Deleted obsolete templates
+    - Deleted templates with hard-coded values for SLAs
+
+
 
 * None
 
