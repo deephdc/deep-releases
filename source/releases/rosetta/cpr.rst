@@ -4,9 +4,9 @@ CloudProviderRanker
 .. contents:: Table of Contents
 
 The **Cloud Provider Ranker** is a standalone REST WEB Service which ranks cloud provider 
-services using rules implemented with the Drools framework. The **INDIGO PaaS Orchestrator**
- interacts with this service in order to obtain the rank of two or more cloud services 
- depending on the match with specific rules.
+services using rules implemented with the Drools framework. The **INDIGO PaaS Orchestrator** 
+interacts with this service in order to obtain the rank of two or more cloud services 
+depending on the match with specific rules.
 The aim of this micro component is to fully decouple the ranking logic from the 
 Orchestrator's business logic.
 
