@@ -1,0 +1,62 @@
+v2.2.0-FINAL
+------------
+
+What’s new
+~~~~~~~~~~
+
+Between the many changes introduced we can highligth the new support for compute GPU, flavors and for vRouter deployment
+
+List of RfCs
+~~~~~~~~~~~~
+
+* New Features
+
+  * Added support for Compute GPU and flavors
+  * Added Vault integration for supporting Marathon secrets
+  * Added initial QCG support
+  * Added /configuration endpoint
+  * Added enableHttps flag in MarathonApp (enable_https in tempplate)
+  * Added support for vRouter deployment
+
+* Improvements
+
+  * Support new A4C Tosca Parser library (v2.1.0-DEEP-1.0.0)
+  * Support new CPR interface
+  * Support new CMDB Schema
+  * Support new Monitoring data structure
+  * Improved hybrid deployment support for basic scenario
+
+* Bug Fixes
+
+  * Fix log errors in case of cloud services retry
+  * Fix bug in the selection of the cloud service
+
+Dependencies
+~~~~~~~~~~~~
+
+The PaaS Orchestrator v.2.1.2-FINAL has the following services dependencies
+
+* CMDB release v0.5
+* SLAM release v2.0.0
+* CPR release v0.7.0
+* Monitoring - Zabbix Wrapper 1.0.2
+* Monitoring probes: Openstack probe 1.4.2, Mesos probe 1.4 and QCG probe 1.0
+* IM release 1.8.6.1
+* (Optional) Onedata > = v18.0.2-rc[11,12]
+* (Optional) Vault 1.1.2
+* tosca-types v4.0.0
+
+Installation methods
+~~~~~~~~~~~~~~~~~~~~
+
+* Automatic deployment is available through Ansible roles
+
+  * Project URL: https://github.com/indigo-dc/indigopaas-deploy
+
+
+List of Artifacts
+~~~~~~~~~~~~~~~~~
+* Docker Container:
+
+  * `indigodatacloud/orchestrator:DEEP-2 (signed) <https://hub.docker.com/layers/indigodatacloud/orchestrator/DEEP-2/images/sha256-70a1c871a5ab5b4bdf0440ba015acd0f125c0ed5b2cdb0677054d3ea3ae85084>`_
+  * `indigodatacloud/orchestrator:2.2.0-final <https://hub.docker.com/layers/indigodatacloud/orchestrator/2.2.0-final/images/sha256-70a1c871a5ab5b4bdf0440ba015acd0f125c0ed5b2cdb0677054d3ea3ae85084>`_

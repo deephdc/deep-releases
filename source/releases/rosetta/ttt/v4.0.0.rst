@@ -1,0 +1,43 @@
+v. 4.0.0
+-------
+
+What’s new
+~~~~~~~~~~
+
+This version provides a number of new features, improvements and bug fixes
+
+List of RfCs
+~~~~~~~~~~~~
+
+ - TOSCA types v. 4.0.0, tested with Ansible 2.6.20
+
+    - Added new type for QCG job 
+    - Added new types and artifacts for vRouter components 
+    - Added new type for DEEPaaS 
+    - Added support for Marathon secrets 
+    - Added icons for each type 
+    - Added metadata and description in custom_types.yaml
+    - Added type for BlockStorage and for AttachesTo relationship
+    - Improved support for hybrid deployments
+    - Improved policy definitions
+
+ - TOSCA templates v. 4.0.0
+   
+    - Updated templates to ensure the compliance with Simple Profile in YAML 1.0
+       - **these changes are mandatory for working with Orchestrator version >= 2.2.0**
+    - Updated templates for DEEP use-cases
+    - Fixing typos (e.g. priviliged --> privileged)
+    - Added template for Slurm Elastic Cluster 
+    - Deleted obsolete templates
+    - Deleted templates with hard-coded values for SLAs
+
+
+
+* None
+
+List of Artifacts
+~~~~~~~~~~~~~~~~~
+
+* Tarballs:
+   * `tosca-types-4.0.0.tar.gz <https://repo.indigo-datacloud.eu/repository/deep-hdc/production/2/centos7/x86_64/tgz/tosca-types-v4.0.0.tar.gz>`_
+   * `tosca-templates-v4.0.0.tar.gz <httpis://repo.indigo-datacloud.eu/repository/deep-hdc/production/2/centos7/x86_64/tgz/tosca-templates-v4.0.0.tar.gz>`_

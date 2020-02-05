@@ -1,0 +1,71 @@
+v1.1.4
+------
+
+What’s new
+~~~~~~~~~~
+
+This version provides a number of new features, improvements and bug fixes
+
+List of RfCs
+~~~~~~~~~~~~
+
+New features
+
+ - Use hub.docker.com as default registry
+ - Listing of containers size with ps -s
+ - Listing of containers execution modes with ps -m
+ - Added support for nameat() and statx() in Pn and Fn modes
+ - Added Fn libraries for Ubuntu18, Ubuntu19, Fedora29, Fedora30, Fedora31, CentOS8
+ - Added Fn libraries for Alpine 3.8, 3.9, 3.10, 3.11
+ - Added support for sha512 hashes
+ - Added support for opaque whiteouts
+ - Added search --list-tags to available tags for a given repository
+ - Add CLI support for image names in format host/repository:tag
+ - Support for fake root in Sn execution modes via --user=root
+ - Added run --containerauth to enable direct use of the container passwd and group fixing user and group creation
+ - Added run --env-file= to load file with environment variables
+ - Added support for file mount bindings in singularity
+ - Added UDOCKER_USE_PROOT_EXECUTABLE env var to select proot location
+ - Added UDOCKER_USE_RUNC_EXECUTABLE env var to select runc location
+ - Added UDOCKER_USE_SINGULARITY_EXECUTABLE env var to select singularity
+ - Added UDOCKER_DEFAULT_EXECUTION_MODE env var to select default execution mode
+ - Added R2 and R3 execution modes for PRoot overlay execution in runc enabling better root emulation under these modes.
+ - Added setup --purge for cleanup of mountpoints and files
+ - Added setup --fixperms to fix container file permissions
+ - Add rename command for renaming of containers
+ - Create processes without shell context
+ - Added loading and handling of container images in OCI format
+
+Improvements
+
+ - Improved search using v1 and v2 APIs and better display of results
+ - Improved handling of links and pathname translation in Fn modes
+ - Improved fix of SECCOMP accelerated mode for P1 mode
+ - Improved verify of loaded/pulled images
+ - Improved handling of mountpoints
+ - Improve file and directory binding support for Singularity and runc
+ - Safer parsing of config files and removal of directories
+ - Improved installation
+
+Bugs
+
+ - Fixes for udocker in ARM aarch64
+
+Detailed list available on `udocker GitHub <https://github.com/indigo-dc/udocker/issues?utf8=%E2%9C%93&q=milestone%3A1.1.4>`_
+
+Known Issues
+~~~~~~~~~~~~
+
+* None
+
+Installation methods
+~~~~~~~~~~~~~~~~~~~~
+
+ * Via PIP or other method as described in the `Installation Manual <https://github.com/indigo-dc/udocker/blob/master/doc/installation_manual.md>`_
+
+List of Artifacts
+~~~~~~~~~~~~~~~~~
+
+ Tarball:
+   * `udocker-1.1.4.tar.gz <https://repo.indigo-datacloud.eu/repository/deep-hdc/production/2/centos7/x86_64/tgz/udocker-1.1.4.tar.gz>`_
+ 

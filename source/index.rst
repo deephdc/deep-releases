@@ -11,6 +11,7 @@ DEEP-Hybrid-DataCloud releases
 .. toctree::
    :maxdepth: 2
 
+   releases/rosetta/index.rst
    releases/genesis/index.rst
 
 

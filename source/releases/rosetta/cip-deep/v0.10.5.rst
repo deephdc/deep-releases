@@ -1,0 +1,90 @@
+v 0.10.5
+-------
+
+What’s new
+~~~~~~~~~~
+
+* Support for multitenancy in CMDBv1
+* Support for new Mesos providers
+* Support for fetching GPU information from OpenStack and Mesos
+
+List of RfCs
+~~~~~~~~~~~~
+
+ .. raw:: html
+
+    <embed>
+    <h4>        Task
+    </h4>
+    <ul>
+    <li>[<a href='https://jira.deep-hybrid-datacloud.eu/browse/DPD-333'>DPD-333</a>] -         Re-structure the code to allow choice of formatters
+    </li>
+    <li>[<a href='https://jira.deep-hybrid-datacloud.eu/browse/DPD-382'>DPD-382</a>] -         Make the usage of project ID more clear in code and configuration files
+    </li>
+    <li>[<a href='https://jira.deep-hybrid-datacloud.eu/browse/DPD-545'>DPD-545</a>] -         OpenStack flavor &amp; image information in CMDBv1 format
+    </li>
+    <li>[<a href='https://jira.deep-hybrid-datacloud.eu/browse/DPD-546'>DPD-546</a>] -         Multitenancy support in CMDBv1: images and flavors
+    </li>
+    <li>[<a href='https://jira.deep-hybrid-datacloud.eu/browse/DPD-548'>DPD-548</a>] -         Support for Mesos provider
+    </li>
+    <li>[<a href='https://jira.deep-hybrid-datacloud.eu/browse/DPD-561'>DPD-561</a>] -         Add CMDBv1 formatter 
+    </li>
+    <li>[<a href='https://jira.deep-hybrid-datacloud.eu/browse/DPD-564'>DPD-564</a>] -         Support for Marathon provider
+    </li>
+    <li>[<a href='https://jira.deep-hybrid-datacloud.eu/browse/DPD-571'>DPD-571</a>] -         Validate produced CMDBv1 JSON 
+    </li>
+    <li>[<a href='https://jira.deep-hybrid-datacloud.eu/browse/DPD-573'>DPD-573</a>] -         CMDBv1 JSON should be produced as a list of objects
+    </li>
+    <li>[<a href='https://jira.deep-hybrid-datacloud.eu/browse/DPD-579'>DPD-579</a>] -         Release documentation
+    </li>
+    <li>[<a href='https://jira.deep-hybrid-datacloud.eu/browse/DPD-612'>DPD-612</a>] -         Support Chronos data from static config 
+    </li>
+    <li>[<a href='https://jira.deep-hybrid-datacloud.eu/browse/DPD-613'>DPD-613</a>] -         Test publication in CMDB of CIP Mesos data
+    </li>
+    <li>[<a href='https://jira.deep-hybrid-datacloud.eu/browse/DPD-669'>DPD-669</a>] -         Attribute to feature public and private providers (and services)
+    </li>
+    <li>[<a href='https://jira.deep-hybrid-datacloud.eu/browse/DPD-674'>DPD-674</a>] -         Restructure tenant records to rely on IAM organisation
+    </li>
+    <li>[<a href='https://jira.deep-hybrid-datacloud.eu/browse/DPD-699'>DPD-699</a>] -         Generate service IDs in CMDB records as the service endpoint
+    </li>
+    </ul>
+        
+    <h4>        Bug
+    </h4>
+    <ul>
+    <li>[<a href='https://jira.deep-hybrid-datacloud.eu/browse/DPD-670'>DPD-670</a>] -         Wrong string types in resultant CMDB JSON record
+    </li>
+    <li>[<a href='https://jira.deep-hybrid-datacloud.eu/browse/DPD-673'>DPD-673</a>] -         Image record changes
+    </li>
+    </ul>
+        
+    <h4>        Sub-task
+    </h4>
+    <ul>
+    <li>[<a href='https://jira.deep-hybrid-datacloud.eu/browse/DPD-331'>DPD-331</a>] -         Fetch information from Mesos clusters
+    </li>
+    </ul>
+    </embed>
+
+
+Installation methods
+~~~~~~~~~~~~~~~~~~~~
+
+* yum/apt/python-pip: https://github.com/indigo-dc/cloud-info-provider-deep
+* Ansible role: https://github.com/indigo-dc/ansible-role-cloud-info-provider
+
+
+List of Artifacts
+~~~~~~~~~~~~~~~~~
+
+* CentOS-7 RPMS
+    * `cloud-info-provider-deep-0.10.5-1.el7.noarch.rpm <http://repo.indigo-datacloud.eu/repository/deep-hdc/production/2/centos7/x86_64/base/repoview/cloud-info-provider-deep.html>`_
+    * `cloud-info-provider-deep-openstack-0.10.5-1.el7.noarch.rpm <http://repo.indigo-datacloud.eu/repository/deep-hdc/production/2/centos7/x86_64/base/repoview/cloud-info-provider-deep-openstack.html>`_
+
+* Ubuntu 16.04 DEBS
+    * `python-cloud-info-provider-deep-openstack_0.10.5-1_all.deb <http://repo.indigo-datacloud.eu/repository/deep-hdc/production/2/ubuntu/dists/xenial/main/binary-amd64/python-cloud-info-provider-deep-openstack_0.10.5-1_all.deb>`_
+    * `python-cloud-info-provider-deep_0.10.5-1_all.deb <http://repo.indigo-datacloud.eu/repository/deep-hdc/production/2/ubuntu/dists/xenial/main/binary-amd64/python-cloud-info-provider-deep_0.10.5-1_all.deb>`_
+
+* Ubuntu 18.04 DEBS
+    * `python-cloud-info-provider-deep-openstack_0.10.5-1_all.deb <http://repo.indigo-datacloud.eu/repository/deep-hdc/production/2/ubuntu/dists/bionic/main/binary-amd64/python-cloud-info-provider-deep-openstack_0.10.5-1_all.deb>`_
+    * `python-cloud-info-provider-deep_0.10.5-1_all.deb <http://repo.indigo-datacloud.eu/repository/deep-hdc/production/2/ubuntu/dists/bionic/main/binary-amd64/python-cloud-info-provider-deep_0.10.5-1_all.deb>`_

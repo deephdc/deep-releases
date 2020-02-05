@@ -1,0 +1,45 @@
+v1.4
+----
+
+What’s new
+~~~~~~~~~~
+
+* First inclusion in a DEEP release
+* Integration of the orchestrator functionality into Spring projects such as Alien4Cloud through Spring Social
+
+
+List of RfCs
+~~~~~~~~~~~~
+
+  .. raw:: html
+
+    <embed>
+        
+    <h4>        Bug
+    </h4>
+    <ul>
+    <li>[<a href='https://github.com/indigo-dc/spring-social-oidc/issues/4'>Issues-4</a>] -  Allow multiple orchestrators   
+    </li>
+    <li>[<a href='https://github.com/indigo-dc/spring-social-oidc/issues/2'>Issues-2</a>] -  Get templates support
+    </li>
+    </ul>
+    <br>
+    </embed>
+
+
+
+Known Issues
+~~~~~~~~~~~~
+* `GitHub open issues <https://github.com/indigo-dc/spring-social-oidc/issues?q=is%3Aopen+is%3Aissue>`__
+
+Installation methods
+~~~~~~~~~~~~~~~~~~~~
+
+* Dependency managers such as Maven or Gradle can use the method described in https://github.com/indigo-dc/spring-social-oidc/blob/master/README.md#use-in-a-spring-project
+
+List of Artifacts
+~~~~~~~~~~~~~~~~~
+
+* jar to be included in Spring projects through gradle or maven
+    * `Maven artefact <https://repository.indigo-datacloud.eu/#browse/browse:maven-releases:org%2Fspringframework%2Fsocial%2Fspring-social-oidc-deep%2F1.4>`_
+

@@ -1,0 +1,206 @@
+v 2.0-r0
+-------
+
+What’s new
+~~~~~~~~~~
+
+This is the second major release of the Alien4Cloud - DEEP plugin providing:
+
+- Support for the OpenStack normative TOSCA types (implementation available `here <https://github.com/openstack/tosca-parser/blob/master/toscaparser/elements/TOSCA_definition_1_0.yaml>`__)
+- Support for the IndigoDC TOSCA custom types (implementation available `here <https://github.com/indigo-dc/tosca-types/tree/v4.0.0>`__)
+- Support for DEEP-OC templates (available `here <https://github.com/indigo-dc/tosca-templates/tree/master/deep-oc>`__)
+- Improved support for outputs in the templates
+- Outputs editor
+- Outputs retrieval and display from the Indigo Orchestrator
+- Improved support for TOSCA functions
+- Improved support for inputs 
+- Inputs editor
+- IAM authentication support
+
+List of RfCs
+~~~~~~~~~~~~
+Most important features and improvements:
+
+- Jira issues under Alien4cloud-deep component version "Alien4cloud 2.0-r0" 
+
+  .. raw:: html
+
+    <embed>
+    <h4> Task
+    </h4>
+    <ul>
+    <li>[<a href='https://jira.deep-hybrid-datacloud.eu/browse/DPD-434'>DPD-434</a>] -         [A4C] Test version 2.1.0 
+    </li>
+    <li>[<a href='https://jira.deep-hybrid-datacloud.eu/browse/DPD-437'>DPD-437</a>] -         [A4C] Move the development to the indigo-dc/alien4cloud fork and def branches
+    </li>
+    <li>[<a href='https://jira.deep-hybrid-datacloud.eu/browse/DPD-438'>DPD-438</a>] -         [Plugin] Auto deployment plugin + instantiation
+    </li>
+    <li>[<a href='https://jira.deep-hybrid-datacloud.eu/browse/DPD-442'>DPD-442</a>] -         [Plugin] User per deployment
+    </li>
+    <li>[<a href='https://jira.deep-hybrid-datacloud.eu/browse/DPD-443'>DPD-443</a>] -         [Plugin] Get user info 
+    </li>
+    <li>[<a href='https://jira.deep-hybrid-datacloud.eu/browse/DPD-444'>DPD-444</a>] -         [A4C] Check if supports the standard tosca types
+    </li>
+    <li>[<a href='https://jira.deep-hybrid-datacloud.eu/browse/DPD-445'>DPD-445</a>] -         [A4C] Integrate tosca custom types from master
+    </li>
+    <li>[<a href='https://jira.deep-hybrid-datacloud.eu/browse/DPD-485'>DPD-485</a>] -         [A4C] Convert import 
+    </li>
+    <li>[<a href='https://jira.deep-hybrid-datacloud.eu/browse/DPD-486'>DPD-486</a>] -         [A4C] Null exception when importing template without metadata 
+    </li>
+    <li>[<a href='https://jira.deep-hybrid-datacloud.eu/browse/DPD-487'>DPD-487</a>] -         [A4C] TOSCA methods in Complex properties 
+    </li>
+    <li>[<a href='https://jira.deep-hybrid-datacloud.eu/browse/DPD-488'>DPD-488</a>] -         [A4C] Converts get_input when loading topology
+    </li>
+    <li>[<a href='https://jira.deep-hybrid-datacloud.eu/browse/DPD-491'>DPD-491</a>] -         Allow parsing of TOSCA methods as YAML nodes
+    </li>
+    <li>[<a href='https://jira.deep-hybrid-datacloud.eu/browse/DPD-503'>DPD-503</a>] -         [A4C] Error parsing imports TOSCA text editor
+    </li>
+    <li>[<a href='https://jira.deep-hybrid-datacloud.eu/browse/DPD-505'>DPD-505</a>] -         [A4C] Add support for any output in the TOSCA text editor
+    </li>
+    <li>[<a href='https://jira.deep-hybrid-datacloud.eu/browse/DPD-506'>DPD-506</a>] -         [A4C] Support for parsing ouput functions from a general struct
+    </li>
+    <li>[<a href='https://jira.deep-hybrid-datacloud.eu/browse/DPD-507'>DPD-507</a>] -         [A4C] Inputs default values are not rendered correctly 
+    </li>
+    <li>[<a href='https://jira.deep-hybrid-datacloud.eu/browse/DPD-508'>DPD-508</a>] -         [A4C] Visual representation contains NaN
+    </li>
+    <li>[<a href='https://jira.deep-hybrid-datacloud.eu/browse/DPD-509'>DPD-509</a>] -         [A4C] Serializer/Deserializer for Scalars
+    </li>
+    <li>[<a href='https://jira.deep-hybrid-datacloud.eu/browse/DPD-515'>DPD-515</a>] -         [All] Fix security vulnerabilities [March 2019]
+    </li>
+    <li>[<a href='https://jira.deep-hybrid-datacloud.eu/browse/DPD-516'>DPD-516</a>] -          [A4C] OpenStack Tosca standard error tosca.artifacts.Root
+    </li>
+    <li>[<a href='https://jira.deep-hybrid-datacloud.eu/browse/DPD-517'>DPD-517</a>] -         [A4C] Do not require importing the normative types
+    </li>
+    <li>[<a href='https://jira.deep-hybrid-datacloud.eu/browse/DPD-518'>DPD-518</a>] -         [A4C] Fails when not connected to the internet and can&#39;t verify file existance
+    </li>
+    <li>[<a href='https://jira.deep-hybrid-datacloud.eu/browse/DPD-519'>DPD-519</a>] -         [A4C] Display all outputs
+    </li>
+    <li>[<a href='https://jira.deep-hybrid-datacloud.eu/browse/DPD-520'>DPD-520</a>] -         [A4C] Add support for outputs results in InstanceInformation
+    </li>
+    <li>[<a href='https://jira.deep-hybrid-datacloud.eu/browse/DPD-523'>DPD-523</a>] -         [A4C] get_attribute on a property
+    </li>
+    <li>[<a href='https://jira.deep-hybrid-datacloud.eu/browse/DPD-524'>DPD-524</a>] -         [A4C] Function formatter in ToscaPropertySerializerUtils
+    </li>
+    <li>[<a href='https://jira.deep-hybrid-datacloud.eu/browse/DPD-525'>DPD-525</a>] -         [A4C] Required property TOSCA function
+    </li>
+    <li>[<a href='https://jira.deep-hybrid-datacloud.eu/browse/DPD-526'>DPD-526</a>] -         [A4C] No output properties or attributes message with existing outputs
+    </li>
+    <li>[<a href='https://jira.deep-hybrid-datacloud.eu/browse/DPD-527'>DPD-527</a>] -         [A4C] interfaces configure implementation not rendered correctly text editor
+    </li>
+    <li>[<a href='https://jira.deep-hybrid-datacloud.eu/browse/DPD-528'>DPD-528</a>] -         [A4C] Load node templates images from metadata
+    </li>
+    <li>[<a href='https://jira.deep-hybrid-datacloud.eu/browse/DPD-544'>DPD-544</a>] -         [A4C] Don&#39;t render empty output description
+    </li>
+    <li>[<a href='https://jira.deep-hybrid-datacloud.eu/browse/DPD-552'>DPD-552</a>] -         [Plugin] Security risks 
+    </li>
+    <li>[<a href='https://jira.deep-hybrid-datacloud.eu/browse/DPD-553'>DPD-553</a>] -         Update README deep 
+    </li>
+    <li>[<a href='https://jira.deep-hybrid-datacloud.eu/browse/DPD-557'>DPD-557</a>] -         [A4C] Specify TOSCA imports URL when uploading
+    </li>
+    <li>[<a href='https://jira.deep-hybrid-datacloud.eu/browse/DPD-583'>DPD-583</a>] -         [A4C] Specify TOSCA imports URL when uploading
+    </li>
+    <li>[<a href='https://jira.deep-hybrid-datacloud.eu/browse/DPD-618'>DPD-618</a>] -         [Plugin] Error instantiating plugin
+    </li>
+    <li>[<a href='https://jira.deep-hybrid-datacloud.eu/browse/DPD-619'>DPD-619</a>] -         [Plugin] Expired token cannot delete deployed app
+    </li>
+    <li>[<a href='https://jira.deep-hybrid-datacloud.eu/browse/DPD-620'>DPD-620</a>] -         [Plugin] Integration with Spring social OAuth2
+    </li>
+    <li>[<a href='https://jira.deep-hybrid-datacloud.eu/browse/DPD-621'>DPD-621</a>] -         [Plugin] Cannot use Orchestrator REST API
+    </li>
+    <li>[<a href='https://jira.deep-hybrid-datacloud.eu/browse/DPD-623'>DPD-623</a>] -         [Plugin] Support for get template
+    </li>
+    <li>[<a href='https://jira.deep-hybrid-datacloud.eu/browse/DPD-652'>DPD-652</a>] -         [Plugin] Tosca definition must be first when sent to orchestrator
+    </li>
+    <li>[<a href='https://jira.deep-hybrid-datacloud.eu/browse/DPD-653'>DPD-653</a>] -         Output creation TOSCA editor
+    </li>
+    <li>[<a href='https://jira.deep-hybrid-datacloud.eu/browse/DPD-654'>DPD-654</a>] -         Output deletion TOSCA editor
+    </li>
+    <li>[<a href='https://jira.deep-hybrid-datacloud.eu/browse/DPD-655'>DPD-655</a>] -         Output editing TOSCA editor
+    </li>
+    <li>[<a href='https://jira.deep-hybrid-datacloud.eu/browse/DPD-658'>DPD-658</a>] -         Inputs creation, deletion, editing from the UI
+    </li>
+    <li>[<a href='https://jira.deep-hybrid-datacloud.eu/browse/DPD-659'>DPD-659</a>] -         Artifact editing TOSCA editor allow virtual res
+    </li>
+    <li>[<a href='https://jira.deep-hybrid-datacloud.eu/browse/DPD-660'>DPD-660</a>] -         SSL_ERROR_NO_CYPHER_OVERLAP
+    </li>
+    <li>[<a href='https://jira.deep-hybrid-datacloud.eu/browse/DPD-661'>DPD-661</a>] -         Update langauge files for outputs/inputs/artifacts
+    </li>
+    <li>[<a href='https://jira.deep-hybrid-datacloud.eu/browse/DPD-663'>DPD-663</a>] -         [ALL] Security CVE-2019-16335 CVE-2019-14540
+    </li>
+    <li>[<a href='https://jira.deep-hybrid-datacloud.eu/browse/DPD-664'>DPD-664</a>] -         Unable to create relationships HostOn
+    </li>
+    <li>[<a href='https://jira.deep-hybrid-datacloud.eu/browse/DPD-685'>DPD-685</a>] -         Alignment of items not present when Input/Output value is too long
+    </li>
+    <li>[<a href='https://jira.deep-hybrid-datacloud.eu/browse/DPD-702'>DPD-702</a>] -         Tmp fix for tosca.datatypes.network.PortDef fix
+    </li>
+    <li>[<a href='https://jira.deep-hybrid-datacloud.eu/browse/DPD-703'>DPD-703</a>] -         [settings-manager] Add support for new orchestrator rest caller
+    </li>
+    <li>[<a href='https://jira.deep-hybrid-datacloud.eu/browse/DPD-704'>DPD-704</a>] -         [Plugin] Remove options related to client Oauth
+    </li>
+    </ul>
+    <br>
+
+    <h4> Bug
+    </h4>
+    <ul>
+    <li>[<a href='https://jira.deep-hybrid-datacloud.eu/browse/DPD-521'>DPD-521</a>] -         [A4C] ToscaFilter not found by SpringContext
+    </li>
+    <li>[<a href='https://jira.deep-hybrid-datacloud.eu/browse/DPD-522'>DPD-522</a>] -         [A4C] Deserialize PropertyValues correctly
+    </li>
+    <li>[<a href='https://jira.deep-hybrid-datacloud.eu/browse/DPD-657'>DPD-657</a>] -         Can&#39;t import custom types with tosca.datatypes.network.PortDef
+    </li>
+    <li>[<a href='https://jira.deep-hybrid-datacloud.eu/browse/DPD-680'>DPD-680</a>] -         Serializer doens&#39;t quote function string params with spaces
+    </li>
+    <li>[<a href='https://jira.deep-hybrid-datacloud.eu/browse/DPD-681'>DPD-681</a>] -         SOme property values are rendered as strings when function
+    </li>
+    <li>[<a href='https://jira.deep-hybrid-datacloud.eu/browse/DPD-683'>DPD-683</a>] -         Edit existing inputs always results in a string value
+    </li>
+    <li>[<a href='https://jira.deep-hybrid-datacloud.eu/browse/DPD-684'>DPD-684</a>] -         Add Input/Output listing no vertical scroll
+    </li>
+    </ul>
+    <br>
+            
+    <h4> Epic
+    </h4>
+    <ul>
+    <li>[<a href='https://jira.deep-hybrid-datacloud.eu/browse/DPD-514'>DPD-514</a>] -         Prepare Alien4Cloud  &amp; related componets for review
+    </li>
+    </ul>
+    <br>
+    </embed>
+
+    
+
+Github issues for DEEP-2 (everything done in the DEEP-2 milestone): 
+
+ - `Alien4Cloud-deep <https://github.com/indigo-dc/alien4cloud-deep>`_ (the plugin & Dockerfile) : https://github.com/indigo-dc/alien4cloud-deep/milestone/1?closed=1
+ - `Alien4Cloud repo <https://github.com/indigo-dc/alien4cloud>`_ (the fork of the official A4C): https://github.com/indigo-dc/alien4cloud/milestone/1
+
+
+Known Issues
+~~~~~~~~~~~~
+
+Please see the list of issues at `Github <https://github.com/indigo-dc/alien4cloud-deep/issues?q=is%3Aopen+is%3Aissue>`__
+
+Dependencies
+~~~~~~~~~~~~
+
+The Alien4Cloud-DEEP plugin v. 2.0-r0 is known to work with the following:
+
+* Alien4Cloud custom version: 2.1.0-UPV-1.0.0-SNAPSHOT
+* Plugin version: 2.2.0-SNAPSHOT
+* Alien4Cloud Settings Manager version: 2.1.0
+* TOSCA custom-types version: 4.0.0
+* Spring OIDC social plugin version: 1.4
+
+Installation methods 
+~~~~~~~~~~~~~~~~~~~~
+
+* automatic deployment by using the Docker image
+
+List of Artifacts
+~~~~~~~~~~~~~~~~~
+
+* Docker Container:
+    * `indigodatacloud/alien4cloud-deep <https://hub.docker.com/r/indigodatacloud/alien4cloud-deep/tags/>`__:DEEP-2 (signed)
+    * `indigodatacloud/alien4cloud-deep <https://hub.docker.com/r/indigodatacloud/alien4cloud-deep/tags/>`__:2.0-r0

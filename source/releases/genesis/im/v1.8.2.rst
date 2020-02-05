@@ -1,0 +1,44 @@
+v1.8.2
+------
+
+What’s new
+~~~~~~~~~~
+
+This new version adds a number of new features and improvements, as well as some bug fixes, detailed bellow
+
+List of RfCs
+~~~~~~~~~~~~
+New features and improvements
+
+- [DPD-534] - Enable to set ansible module version.
+- [DPD-535] - Fix error attaching volumes in OCCI conn (OpenNebula site)
+- [DPD-537] - Remove new line characters inserted into cloud-init shell scripts
+- [DPD-538] - Enable to create Azure VM from user disk
+- [DPD-539] - Enable to set cidr in Fogbow federated networks
+- [DPD-540] - Add node creation error message in CloudStack conn
+- [DPD-541] - Add sleep among ctxt agent task retries
+
+
+Bugs fixed
+
+- [DPD-531] - Error in dockerfile not installing libcloud library
+- [DPD-532] - Fix error port 22 is not opened in private nets
+- [DPD-533] - Fix error in directory creation in case of using external ansible host
+- [DPD-536] - Fix error in OCCI conn contacting with KeyStorm
+
+
+Known Issues
+~~~~~~~~~~~~
+* None
+
+List of Artifacts
+~~~~~~~~~~~~~~~~~
+
+* CentOS-7 RPMS
+    * `IM-1.8.2-1.el7.noarch.rpm <http://repo.indigo-datacloud.eu/repository/deep-hdc/production/1/centos7/x86_64/base/repoview/IM.html>`_
+
+* Ubuntu 16.04 DEBS
+    * `python-im_1.8.2-1_all.deb <http://repo.indigo-datacloud.eu/repository/deep-hdc/production/1/ubuntu/dists/xenial/main/binary-amd64/python-python-im_1.8.2-1_all.deb>`_
+
+* Docker Container:
+    * `indigodatacloud/im <https://hub.docker.com/r/indigodatacloud/im/tags/>`__:1.8.2
