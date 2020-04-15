@@ -32,11 +32,13 @@ Highlights
 Key technical highlights:
 
 * Alien4Cloud-DEEP plugin
+
   * Support for the OpenStack normative TOSCA types, for the IndigoDC TOSCA custom types, for DEEP-OC templates
   * Outputs retrieval and display from the Indigo Orchestrator
   * IAM authentication support
 
 * DEEP-Hybrid-DataCloud Cloud Information Provider
+
   * Support for multitenancy in CMDBv1, for new Mesos providers, for fetching GPU information from OpenStack and Mesos
 
 * CloudProviderRanker
@@ -46,7 +48,7 @@ Key technical highlights:
 * DEEPaaS API
 
   * New V2 version of the API, major change that is not backward compatible, supporting async requests, following 
-   Swagger UI 3.X Specifications, with new options allowing to specify the number of workers that will be used for model operations
+    Swagger UI 3.X Specifications, with new options allowing to specify the number of workers that will be used for model operations
 
 * Infrastructure Manager (IM)
 
@@ -71,17 +73,17 @@ Key technical highlights:
 * Spring Social OIDC
 
   * first release in DEEP-HDC allowing for the integration of the orchestrator functionality into Spring
-   projects such as Alien4Cloud through Spring Social
+    projects such as Alien4Cloud through Spring Social
 
 * TOSCA types and templates
 
-   - new types for QCG jobs and DEEPaaS, support for Marathon secrets and hybrid deployments
+  * new types for QCG jobs and DEEPaaS, support for Marathon secrets and hybrid deployments
 
 * udocker
 
   * many new features, improvements and bug fixes, like the improved support of singularity, 
-   added support for sha512 hashes, safer parsing of config files and removal of directories, 
-   improved installation
+    added support for sha512 hashes, safer parsing of config files and removal of directories, 
+    improved installation
 
    
 Release Notes
